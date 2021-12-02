@@ -1,7 +1,7 @@
 import { Link } from "gatsby";
 import React from "react";
 import styled from "styled-components";
-import { BodyIntro, Caption2 } from "../styles/TextStyles";
+import { BodyIntro } from "../styles/TextStyles";
 
 export default function Icons(props) {
   const { subtitle, src } = props;
@@ -48,7 +48,7 @@ const TextWrapper = styled.div`
   //animation
   *,
   & {
-    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 2);
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 2);
   }
 
   ${Wrapper}:hover & {

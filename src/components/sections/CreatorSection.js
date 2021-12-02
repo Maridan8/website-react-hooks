@@ -1,54 +1,52 @@
 import React from "react";
+import styled, { keyframes } from "styled-components";
+import { CreatorWaves } from "../backgrounds/CreatorWaves";
+import HandBook from "../buttons/Handbook";
 import { Caption2, H2, MediumText } from "../styles/TextStyles";
 
-import styled from "styled-components";
-import Idioms from "../buttons/IdiomsButton";
-
-function IdiomsSection() {
+export default function CreatorSection() {
   return (
     <Wrapper>
+      <CreatorWaves />
       <ContentWrapper>
         <TextWrapper>
-          <SmallTitle>Idiomas</SmallTitle>
-          <Title>Hello | Hola | Salut</Title>
+          <SmallTitle>AUDIOVISUAL</SmallTitle>
+          <Title>
+            Luz, câmera <br />
+            ação!
+          </Title>
           <Description>
-            Conheça a minha opinião sobre línguas estrangeiras e embarque nesse
-            meu hobby!
+            Conheça o meu trabalho como criador de conteúdo e enriqueça o seu
+            conhecimento!
           </Description>
         </TextWrapper>
-        <Idioms subtitle="English" src="/images/icons/english.svg" />
-        <Idioms subtitle="Español" src="/images/icons/español.svg" />
-        <Idioms subtitle="Français" src="/images/icons/français.svg" />
+        <HandBook />
       </ContentWrapper>
     </Wrapper>
   );
 }
 
-export default IdiomsSection;
-
 const Wrapper = styled.div`
   align-items: center;
   overflow: hidden;
+  padding-top: 50px;
   // Wrapper is the background
 `;
+
 const ContentWrapper = styled.div`
   // ContentWrapper is the content area
   max-width: 1234px;
   margin: 0 auto; // center in the screen
-  padding: 50px 50px 30px 30px; //200px top and bottom; 30px right and left
+  padding-top: 200px;
+  padding-right: 30px;
+  padding-bottom: 200px;
+  padding-left: 30px;
   display: grid;
-  grid-template-columns: 650px 150px 150px 150px;
+  grid-template-columns: 550px 150px 150px 150px;
   align-items: center;
   align-content: center;
-
-  /* @media (max-width: 800px) {
-    // Adaptive Layout
-    grid-template-columns: 1fr;
-    gap: 100px;
-    margin: 0 auto;
-    align-items: center;
-  } */
 `;
+
 const TextWrapper = styled.div`
   // TextWrapper is the text area
   max-width: 360px;
@@ -61,11 +59,12 @@ const Title = styled(H2)`
   color: linear-gradient(180deg, #730040 0%, #301cbe 100%); ;
 `;
 
+const SmallTitle = styled(Caption2)`
+  line-height: 50%;
+`;
+
 const Description = styled(MediumText)`
   font-size: 17px;
   line-height: 130%;
   opacity: 0.7;
-`;
-const SmallTitle = styled(Caption2)`
-  line-height: 50%;
 `;
