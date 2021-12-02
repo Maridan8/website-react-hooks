@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="45px" viewBox="0 0 45 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>español</title>
+    <defs>
+        <circle id="path-1" cx="22.5" cy="22.5" r="22.5"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="español">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Oval"></g>
+            <g id="Group" mask="url(#mask-2)" fill-rule="nonzero">
+                <g transform="translate(-7.000000, 0.000000)" id="Rectangle">
+                    <rect fill="#B62929" x="0" y="30.5660455" width="59" height="14.4339545"></rect>
+                    <rect fill="#F6C644" x="0" y="14.4339545" width="59" height="16.1320909"></rect>
+                    <rect fill="#B62929" x="0" y="0" width="59" height="14.4339545"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

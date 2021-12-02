@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="172px" height="169px" viewBox="0 0 172 169" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>mainLogo</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#E08450" offset="0%"></stop>
+            <stop stop-color="#FAE099" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="49.9996536%" x2="100%" y2="49.9996536%" id="linearGradient-2">
+            <stop stop-color="#E08450" offset="0%"></stop>
+            <stop stop-color="#FAE099" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.0003959%" y1="100%" x2="50.0003959%" y2="0%" id="linearGradient-3">
+            <stop stop-color="#E08450" offset="0%"></stop>
+            <stop stop-color="#FAE099" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#E08450" offset="0%"></stop>
+            <stop stop-color="#FAE099" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="1.52657813e-14%" x2="50%" y2="99.9991406%" id="linearGradient-5">
+            <stop stop-color="#E08450" offset="0%"></stop>
+            <stop stop-color="#FAE099" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mainLogo" fill-rule="nonzero">
+            <g id="Group-5">
+                <polygon id="Rectangle-2" fill="url(#linearGradient-1)" points="0 65.0125 53.3012 118.013 101.047 118.914 54.6525 165.759 0 110.206"></polygon>
+                <polygon id="Rectangle-3" fill="url(#linearGradient-2)" points="65.7628 168.312 118.764 115.011 119.665 67.2647 166.51 113.659 110.956 168.312"></polygon>
+                <polygon id="Rectangle-4" fill="url(#linearGradient-3)" points="171.014 102.849 117.713 49.848 69.9672 48.9471 116.362 2.1021 171.014 57.6555"></polygon>
+                <polygon id="Rectangle-5" fill="url(#linearGradient-4)" points="104.951 0 51.9504 53.3012 51.0495 101.047 4.20451 54.6525 59.7579 0"></polygon>
+            </g>
+            <circle id="Ellipse-1" fill="url(#linearGradient-5)" cx="86.0322" cy="84.231" r="23.2724"></circle>
+        </g>
+    </g>
+</svg>

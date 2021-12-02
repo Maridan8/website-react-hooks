@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="45px" viewBox="0 0 45 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>français</title>
+    <defs>
+        <circle id="path-1" cx="22.5" cy="22.5" r="22.5"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="français">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Oval" transform="translate(22.500000, 22.500000) rotate(-90.000000) translate(-22.500000, -22.500000) "></g>
+            <g id="Group" mask="url(#mask-2)" fill-rule="nonzero">
+                <g transform="translate(0.000000, -7.000000)" id="Rectangle">
+                    <polygon fill="#B62929" transform="translate(37.783023, 29.500000) rotate(-90.000000) translate(-37.783023, -29.500000) " points="8.28302273 22.2830227 67.2830227 22.2830227 67.2830227 36.7169773 8.28302273 36.7169773"></polygon>
+                    <polygon fill="#FFFFFF" transform="translate(22.500000, 29.500000) rotate(-90.000000) translate(-22.500000, -29.500000) " points="-7 21.4339545 52 21.4339545 52 37.5660455 -7 37.5660455"></polygon>
+                    <polygon fill="#2950B6" transform="translate(7.216977, 29.500000) rotate(-90.000000) translate(-7.216977, -29.500000) " points="-22.2830227 22.2830227 36.7169773 22.2830227 36.7169773 36.7169773 -22.2830227 36.7169773"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
