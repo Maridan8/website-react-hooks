@@ -29,6 +29,8 @@ export default IdiomsSection;
 const Wrapper = styled.div`
   align-items: center;
   overflow: hidden;
+  padding-bottom: 50px;
+
   // Wrapper is the background
 `;
 const ContentWrapper = styled.div`

@@ -1,5 +1,5 @@
-import React from "react"
-import styled, { keyframes } from "styled-components"
+import React from "react";
+import styled, { keyframes } from "styled-components";
 
 export default function MockupAnimation() {
   return (
@@ -12,17 +12,17 @@ export default function MockupAnimation() {
       </LogoWrapper>
       <Blocked />
     </Wrapper>
-  )
+  );
 }
 
 const animationR = keyframes`
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg) }
-`
+`;
 const animationL = keyframes`
     0% { transform: rotate(0deg); }
     100% { transform: rotate(-360deg) }
-`
+`;
 const Bubble1 = styled.div`
   animation-name: ${animationR};
   animation-duration: 30s;
@@ -47,7 +47,7 @@ const Bubble1 = styled.div`
   border-radius: 50%;
 
   pointer-events: none;
-`
+`;
 
 const Bubble2 = styled.div`
   animation-name: ${animationL};
@@ -83,7 +83,7 @@ const Bubble2 = styled.div`
     inset -20px -8px 40px rgba(199, 184, 144, 0.3),
     inset 0px 0px 48px 18px rgba(255, 255, 255, 0.3);
   border-radius: 50%;
-`
+`;
 
 const Bubble3 = styled.div`
   animation-name: ${animationR};
@@ -112,14 +112,14 @@ const Bubble3 = styled.div`
     inset 0px 0px 48px rgba(255, 255, 255, 0.3);
 
   border-radius: 50%;
-`
+`;
 const Blocked = styled.div`
   position: absolute;
   width: 272px;
   height: 272px;
   left: 157.98px;
   top: 157.98px;
-`
+`;
 const Wrapper = styled.div`
   position: relative;
   align-items: center;
@@ -131,7 +131,7 @@ const Wrapper = styled.div`
     transform: scale(0.5);
     transform-origin: top left;
   }
-`
+`;
 const Logo = styled.img`
   animation-name: ${animationL};
   animation-duration: 30s;
@@ -143,7 +143,7 @@ const Logo = styled.img`
   height: 168.31px;
   left: 50px;
   top: 50px;
-`
+`;
 
 const LogoWrapper = styled.div`
   position: absolute;
@@ -152,4 +152,4 @@ const LogoWrapper = styled.div`
   left: 157.98px;
   top: 157.98px;
   position: relative;
-`
+`;

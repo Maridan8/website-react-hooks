@@ -54,7 +54,7 @@ const TextWrapper = styled.div`
   ${Wrapper}:hover & {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1),
       0px 30px 60px rgba(23, 0, 102, 0.3),
-      inset 0px 0px 0px 0.5px rgba(255, 255, 255, 0.5);
+      inset 0px 0px 0px 0.5px rgba(255, 255, 255, 0.4);
     transform: translateY(-3px); // moves up
 
     .icon {
