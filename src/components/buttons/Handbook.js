@@ -9,7 +9,10 @@ export default function HandBook() {
       <Handbook src="/images/icons/handbook2.svg" />
       <TopFilter />
       <TextWrapper>
-        <Head>VÍDEO</Head>
+        <BottomWrapper>
+          <Head>VÍDEO</Head>
+          <YouTube scr="/images/icons/YouTube.svg" />
+        </BottomWrapper>
         <Title>
           Como ser <br /> estudioso
         </Title>
@@ -17,11 +20,15 @@ export default function HandBook() {
           Conheça a maneira que eu utilizo <br /> para estudar melhor
         </Subtitle>
         <BottomWrapper>
-          <IconWrapper />
+          <IconWrapper>
+            <Video src="images/icons/video.svg" />
+          </IconWrapper>
           <IconText>Acessar vídeo</IconText>
         </BottomWrapper>
         <BottomWrapper>
-          <IconWrapper />
+          <IconWrapper>
+            <File src="images/icons/coding.svg" />
+          </IconWrapper>
           <IconText>Guia do estudo perfeito</IconText>
         </BottomWrapper>
       </TextWrapper>
@@ -82,6 +89,7 @@ const BottomWrapper = styled.div`
 `;
 
 const IconWrapper = styled.div`
+  position: relative;
   width: 32px;
   height: 32px;
   background: rgba(242, 246, 255, 0.3);
@@ -90,4 +98,23 @@ const IconWrapper = styled.div`
 
 const IconText = styled(Caption)`
   color: white;
+`;
+
+const Video = styled.img`
+  position: relative;
+  top: 9px;
+  left: 6px;
+`;
+
+const File = styled.img`
+  position: relative;
+  top: 6px;
+  left: 7px;
+`;
+
+const YouTube = styled.img`
+  position: relative;
+  width: 32px;
+  height: 32px;
+  left: 150px;
 `;
