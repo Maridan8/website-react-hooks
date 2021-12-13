@@ -2,22 +2,23 @@ import React from "react";
 import styled from "styled-components";
 import { Caption, Caption2, H3, SmallText2 } from "../styles/TextStyles";
 
-export default function HandBook() {
+export default function HandBook(props) {
+  const { src, title, subtitle, pdf } = props;
   return (
     <Wrapper>
-      <Handbook src="/images/icons/handbook1.svg" style={{ opacity: "30%" }} />
-      <Handbook src="/images/icons/handbook2.svg" />
+      <Handbook src="/images/icons/handbook1.svg" style={{ opacity: "20%" }} />
+      <Handbook src={src || "/images/icons/handbookRed.svg"} />
       <TopFilter />
       <TextWrapper>
         <BottomWrapper>
           <Head>VÍDEO</Head>
-          <YouTube scr="/images/icons/YouTube.svg" />
+          <YouTubeWrapper>
+            <YouTube src="images/icons/YouTube.svg" />
+          </YouTubeWrapper>
         </BottomWrapper>
-        <Title>
-          Como ser <br /> estudioso
-        </Title>
+        <Title>{title || "Como ser estudioso"}</Title>
         <Subtitle>
-          Conheça a maneira que eu utilizo <br /> para estudar melhor
+          {subtitle || "Conheça a maneira que eu utilizo para estudar melhor"}
         </Subtitle>
         <BottomWrapper>
           <IconWrapper>
@@ -29,7 +30,7 @@ export default function HandBook() {
           <IconWrapper>
             <File src="images/icons/coding.svg" />
           </IconWrapper>
-          <IconText>Guia do estudo perfeito</IconText>
+          <IconText>{pdf || "Guia do estudo perfeito"}</IconText>
         </BottomWrapper>
       </TextWrapper>
     </Wrapper>
@@ -45,6 +46,15 @@ const Wrapper = styled.div`
 const Handbook = styled.img`
   position: absolute;
   top: 1px;
+
+  *,
+  & {
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  ${Wrapper}:hover & {
+    filter: hue-rotate(10deg) brightness(120%) saturate(120%);
+    transform: translateY(-10px);
+  }
 `;
 
 const TopFilter = styled.div`
@@ -57,6 +67,13 @@ const TopFilter = styled.div`
   backdrop-filter: blur(40px);
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 0px 60px 60px 60px;
+  *,
+  & {
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  ${Wrapper}:hover & {
+    transform: translateY(-10px);
+  }
 `;
 
 const TextWrapper = styled.div`
@@ -65,6 +82,15 @@ const TextWrapper = styled.div`
   gap: 26px;
   top: 30px;
   left: 30px;
+  max-width: 250px;
+  *,
+  & {
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  ${Wrapper}:hover & {
+    filter: hue-rotate(10deg) brightness(120%) saturate(120%);
+    transform: translateY(-10px);
+  }
 `;
 
 const Head = styled(SmallText2)`
@@ -114,7 +140,13 @@ const File = styled.img`
 
 const YouTube = styled.img`
   position: relative;
+`;
+
+const YouTubeWrapper = styled.div`
+  left: 150px;
+  position: relative;
   width: 32px;
   height: 32px;
-  left: 150px;
+  background: rgba(242, 246, 255, 0.3);
+  border-radius: 50%;
 `;

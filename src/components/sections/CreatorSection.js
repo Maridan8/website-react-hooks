@@ -20,7 +20,18 @@ export default function CreatorSection() {
             conhecimento!
           </Description>
         </TextWrapper>
-        <HandBook />
+        <HandBook
+          src="/images/icons/handbookRed.svg"
+          title="Como ser estudioso"
+          subtitle="Conheça a maneira que eu utilizo para estudar melhor"
+          pdf="Guia do estudo perfeito"
+        />
+        <HandBook
+          src="/images/icons/handbookBlue.svg"
+          title="Técnicas de programação"
+          subtitle="Dicas para iniciantes em programação"
+          pdf="Aprendendo a pensar"
+        />
       </ContentWrapper>
     </Wrapper>
   );
@@ -37,12 +48,12 @@ const ContentWrapper = styled.div`
   // ContentWrapper is the content area
   max-width: 1234px;
   margin: 0 auto; // center in the screen
-  padding-top: 200px;
+  padding-top: 250px;
   padding-right: 30px;
   padding-bottom: 200px;
   padding-left: 30px;
   display: grid;
-  grid-template-columns: 550px 150px 150px 150px;
+  grid-template-columns: 450px 400px 100px 150px;
   align-items: center;
   align-content: center;
 `;
@@ -60,7 +71,7 @@ const Title = styled(H2)`
 `;
 
 const SmallTitle = styled(Caption2)`
-  line-height: 50%;
+  line-height: 30%;
 `;
 
 const Description = styled(MediumText)`
