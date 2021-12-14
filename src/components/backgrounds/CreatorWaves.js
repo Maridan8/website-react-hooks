@@ -10,7 +10,7 @@ export function CreatorWaves() {
         style={{ top: "100px" }}
       />
       <Wave
-        src="/images/waves/certificate-wave3.svg"
+        src="/images/waves/creator-wave3.svg"
         style={{ top: "200px", filter: "blur(50px)" }}
       />
       <Wave

@@ -50,10 +50,10 @@ const ContentWrapper = styled.div`
   margin: 0 auto; // center in the screen
   padding-top: 250px;
   padding-right: 30px;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
   padding-left: 30px;
   display: grid;
-  grid-template-columns: 450px 400px 100px 150px;
+  grid-template-columns: 450px 400px 100px;
   align-items: center;
   align-content: center;
 `;
