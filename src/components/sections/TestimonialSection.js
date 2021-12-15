@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import LearnMoreButton from "../buttons/LearnMoreButton";
 import {
   BodyIntro,
   Caption,
@@ -46,6 +47,7 @@ export default function TestimonialSection() {
             Confira o depoimento de professores que me apoiaram durante algumas
             etapas da minha vida acadêmica!
           </Description>
+          <LearnMoreButton />
         </TextWrapper>
       </ContentWrapper>
     </Wrapper>
@@ -84,6 +86,14 @@ const Testimonial = styled.div`
   padding-top: 30px;
   padding-bottom: 30px;
   display: grid;
+
+  *,
+  & {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  :hover {
+    filter: hue-rotate(10deg) brightness(120%) saturate(120%);
+  }
 `;
 
 const TextWrapper = styled.div`

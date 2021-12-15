@@ -3,6 +3,7 @@ import { Caption2, H2, MediumText } from "../styles/TextStyles";
 
 import styled from "styled-components";
 import Idioms from "../buttons/IdiomsButton";
+import LearnMoreButton from "../buttons/LearnMoreButton";
 
 function IdiomsSection() {
   return (
@@ -15,6 +16,7 @@ function IdiomsSection() {
             Conheça a minha opinião sobre línguas estrangeiras e embarque nesse
             meu hobby!
           </Description>
+          <LearnMoreButton />
         </TextWrapper>
         <Idioms subtitle="English" src="/images/icons/english.svg" />
         <Idioms subtitle="Español" src="/images/icons/español.svg" />

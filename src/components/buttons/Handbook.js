@@ -6,7 +6,7 @@ export default function HandBook(props) {
   const { src, title, subtitle, pdf } = props;
   return (
     <Wrapper>
-      <Handbook src="/images/icons/handbook1.svg" style={{ opacity: "20%" }} />
+      <Handbook src="/images/icons/handbook1.svg" style={{ opacity: "15%" }} />
       <Handbook src={src || "/images/icons/handbookRed.svg"} />
       <TopFilter />
       <TextWrapper>

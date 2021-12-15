@@ -4,16 +4,17 @@ import styled from "styled-components";
 export function ENEMWaves() {
   return (
     <Wrapper>
-      <Wave src="/images/waves/courses-wave1.svg" style={{ top: "0px" }} />
+      <Wave src="/images/waves/live-wave1.svg" style={{ top: "0px" }} />
       <Wave
-        src="/images/waves/courses-wave2.svg"
-        style={{ top: "50px", filter: "blur(50px)" }}
+        src="/images/waves/live-elipse1.svg"
+        style={{ top: "220px", left: "50px" }}
       />
       <Wave
-        src="/images/waves/courses-wave3.svg"
-        style={{ top: "100px", filter: "blur(50px)" }}
+        src="/images/waves/live-elipse2.svg"
+        style={{ top: "240px", left: "250px" }}
       />
-      <Wave src="/images/waves/courses-wave4.svg" style={{ top: "350px" }} />
+      <Wave src="/images/waves/live-wave2.svg" style={{ top: "500px" }} />
+      <Wave src="/images/waves/live-lines.svg" style={{ left: "-270px" }} />
     </Wrapper>
   );
 }

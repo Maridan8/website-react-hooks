@@ -2,6 +2,7 @@ import React from "react";
 import styled, { keyframes } from "styled-components";
 import { CreatorWaves } from "../backgrounds/CreatorWaves";
 import HandBook from "../buttons/Handbook";
+import LearnMoreButton from "../buttons/LearnMoreButton";
 import { Caption2, H2, MediumText } from "../styles/TextStyles";
 
 export default function CreatorSection() {
@@ -19,6 +20,7 @@ export default function CreatorSection() {
             Conheça o meu trabalho como criador de conteúdo e enriqueça o seu
             conhecimento!
           </Description>
+          <LearnMoreButton />
         </TextWrapper>
         <HandBook
           src="/images/icons/handbookRed.svg"

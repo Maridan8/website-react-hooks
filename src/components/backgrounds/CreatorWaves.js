@@ -17,6 +17,10 @@ export function CreatorWaves() {
         src="/images/waves/certificate-wave4.svg"
         style={{ top: "300px", filter: "blur(50px)" }}
       />
+      <Wave
+        src="/images/waves/certificate-lines.svg"
+        style={{ top: "350px" }}
+      />
     </Wrapper>
   );
 }
