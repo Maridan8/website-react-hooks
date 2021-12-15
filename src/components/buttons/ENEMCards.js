@@ -3,24 +3,122 @@ import styled from "styled-components";
 import { Caption, Caption2, H3, SmallText2 } from "../styles/TextStyles";
 
 export default function ENEMCards(props) {
-  const { src, title, subtitle, pdf } = props;
+  const { src, title, subtitle } = props;
   return (
     <Wrapper>
-      {/* <Handbook src="/images/icons/handbook1.svg" style={{ opacity: "15%" }} />
+      <ColorfulWrapper
+        style={{
+          background: "linear-gradient(180deg, #DC5F93 0%, #9356D0 100%)",
+          filter:
+            "drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.05)) drop-shadow(0px 20px 40px rgba(149, 87, 207, 0.3))",
+        }}
+      >
+        {/* <Handbook src="/images/icons/handbook1.svg" style={{ opacity: "15%" }} />
         <Handbook src={src || "/images/icons/handbookRed.svg"} /> */}
-      <TextWrapper>
-        <Illustration src="images/illustrations/illustration1.svg" />
-        <Title>{title || "Linguagens"}</Title>
-        <Subtitle>{subtitle || "5 vídeos - 3 horas"}</Subtitle>
-        <PlayWrapper>
-          <Play src="images/icons/play.svg" />
-        </PlayWrapper>
-      </TextWrapper>
+        <TextWrapper>
+          <Illustration
+            src={src || "/images/illustrations/illustration1.svg"}
+          />
+          <Title>{title || "Linguagens"}</Title>
+          <Subtitle>{subtitle || "5 vídeos - 3 horas"}</Subtitle>
+          <PlayWrapper>
+            <Play src="images/icons/play.svg" />
+          </PlayWrapper>
+        </TextWrapper>
+      </ColorfulWrapper>
+      <ColorfulWrapper
+        style={{
+          background:
+            "linear-gradient(200.42deg, #ff8570 13.57%, #f9504a 98.35%)",
+          filter:
+            "drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.05)) drop-shadow(0px 20px 40px rgba(251, 94, 84, 0.3))",
+        }}
+      >
+        {/* <Handbook src="/images/icons/handbook1.svg" style={{ opacity: "15%" }} />
+        <Handbook src={src || "/images/icons/handbookRed.svg"} /> */}
+        <TextWrapper>
+          <Illustration
+            src={src || "/images/illustrations/illustration2.svg"}
+          />
+          <Title>{title || "Linguagens"}</Title>
+          <Subtitle>{subtitle || "5 vídeos - 3 horas"}</Subtitle>
+          <PlayWrapper>
+            <Play src="images/icons/play.svg" />
+          </PlayWrapper>
+        </TextWrapper>
+      </ColorfulWrapper>
+      <ColorfulWrapper
+        style={{
+          background:
+            "linear-gradient(200.44deg, #4316DB 13.57%, #9076E7 98.38%)",
+          filter:
+            "drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.05)) drop-shadow(0px 20px 40px rgba(73, 39, 172, 0.3))",
+        }}
+      >
+        {/* <Handbook src="/images/icons/handbook1.svg" style={{ opacity: "15%" }} />
+        <Handbook src={src || "/images/icons/handbookRed.svg"} /> */}
+        <TextWrapper>
+          <Illustration
+            src={src || "/images/illustrations/illustration3.svg"}
+          />
+          <Title>{title || "Linguagens"}</Title>
+          <Subtitle>{subtitle || "5 vídeos - 3 horas"}</Subtitle>
+          <PlayWrapper>
+            <Play src="images/icons/play.svg" />
+          </PlayWrapper>
+        </TextWrapper>
+      </ColorfulWrapper>
+      <ColorfulWrapper
+        style={{
+          background: "linear-gradient(180deg, #343563 0%, #4926AD 100%)",
+          filter:
+            "drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.05)) drop-shadow(0px 20px 40px rgba(73, 39, 172, 0.3))",
+        }}
+      >
+        {/* <Handbook src="/images/icons/handbook1.svg" style={{ opacity: "15%" }} />
+        <Handbook src={src || "/images/icons/handbookRed.svg"} /> */}
+        <TextWrapper>
+          <Illustration
+            src={src || "/images/illustrations/illustration4.svg"}
+          />
+          <Title>{title || "Linguagens"}</Title>
+          <Subtitle>{subtitle || "5 vídeos - 3 horas"}</Subtitle>
+          <PlayWrapper>
+            <Play src="images/icons/play.svg" />
+          </PlayWrapper>
+        </TextWrapper>
+      </ColorfulWrapper>
+      <ColorfulWrapper
+        style={{
+          background: "linear-gradient(360deg, #2FB8FF 0%, #9EECD9 100%)",
+          filter:
+            "drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.05)) drop-shadow(0px 20px 40px rgba(49, 185, 255, 0.3))",
+        }}
+      >
+        {/* <Handbook src="/images/icons/handbook1.svg" style={{ opacity: "15%" }} />
+        <Handbook src={src || "/images/icons/handbookRed.svg"} /> */}
+        <TextWrapper>
+          <Illustration
+            src={src || "/images/illustrations/illustration5.svg"}
+          />
+          <Title>{title || "Linguagens"}</Title>
+          <Subtitle>{subtitle || "5 vídeos - 3 horas"}</Subtitle>
+          <PlayWrapper>
+            <Play src="images/icons/play.svg" />
+          </PlayWrapper>
+        </TextWrapper>
+      </ColorfulWrapper>
     </Wrapper>
   );
 }
 
 const Wrapper = styled.div`
+  padding-top: 0px;
+  padding-right: 30px;
+  display: grid;
+  grid-template-columns: 240px 240px 240px 240px 240px;
+`;
+const ColorfulWrapper = styled.div`
   /* Card */
 
   width: 210px;
@@ -32,11 +130,19 @@ const Wrapper = styled.div`
   justify-content: center;
   vertical-align: middle;
   /* Gradient 5 */
-
-  filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.05))
-    drop-shadow(0px 20px 40px rgba(251, 94, 84, 0.3));
-  background: linear-gradient(200.42deg, #ff8570 13.57%, #f9504a 98.35%);
   border-radius: 20px;
+
+  *,
+  & {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+
+  :hover {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1),
+      0px 30px 60px rgba(23, 0, 102, 0.5),
+      inset 0px 0px 0px 0.5px rgba(255, 255, 255, 0.5);
+    transform: translateY(-3px);
+  }
 `;
 
 const TextWrapper = styled.div`

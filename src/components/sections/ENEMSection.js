@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { ENEMWaves } from "../backgrounds/ENEMWaves";
 import ENEMCards from "../buttons/ENEMCards";
 import LearnMoreButton from "../buttons/LearnMoreButton";
+import ReactPlayer from "react-player";
 import { Caption2, H2, MediumText } from "../styles/TextStyles";
 
 export default function ENEMSection() {
@@ -22,13 +23,10 @@ export default function ENEMSection() {
           </Description>
           <LearnMoreButton />
         </TextWrapper>
-        <CardsWrapper>
-          <ENEMCards />
-          <ENEMCards />
-          <ENEMCards />
-          <ENEMCards />
-          <ENEMCards />
-        </CardsWrapper>
+        <ENEMCards />
+        <Video>
+          <ReactPlayer url="https://youtu.be/5NXp2ItHPSM" />
+        </Video>
       </ContentWrapper>
     </Wrapper>
   );
@@ -50,7 +48,8 @@ const ContentWrapper = styled.div`
   padding-right: 30px;
   padding-bottom: 70px;
   padding-left: 30px;
-
+  align-items: center;
+  align-content: center;
   gap: 30px;
 `;
 
@@ -79,9 +78,9 @@ const Description = styled(MediumText)`
   color: white;
 `;
 
-const CardsWrapper = styled.div`
-  padding-top: 0px;
-  padding-right: 30px;
-  display: grid;
-  grid-template-columns: 240px 240px 240px 240px 240px;
+const Video = styled.div`
+  padding-top: 100px;
+  padding-left: 260px;
+  padding-right: 260px;
+  justify-content: center;
 `;
