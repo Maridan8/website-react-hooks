@@ -6,6 +6,7 @@ import ENEMSection from "../components/sections/ENEMSection";
 
 import HeroSection from "../components/sections/HeroSection";
 import IdiomsSection from "../components/sections/IdiomsSection";
+import TechSection from "../components/sections/TechSection";
 import TestimonialSection from "../components/sections/TestimonialSection";
 function IndexPage() {
   return (
@@ -16,6 +17,7 @@ function IndexPage() {
       <CreatorSection />
       <TestimonialSection />
       <ENEMSection />
+      <TechSection />
     </Layout>
   );
 }

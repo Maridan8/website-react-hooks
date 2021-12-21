@@ -24,9 +24,9 @@ export default function ENEMSection() {
           <LearnMoreButton />
         </TextWrapper>
         <ENEMCards />
-        <Video>
+        {/* <Video>
           <ReactPlayer url="https://youtu.be/5NXp2ItHPSM" />
-        </Video>
+        </Video> */}
       </ContentWrapper>
     </Wrapper>
   );
