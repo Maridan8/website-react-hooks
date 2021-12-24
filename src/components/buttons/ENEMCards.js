@@ -40,7 +40,7 @@ export default function ENEMCards(props) {
           <Illustration
             src={src || "/images/illustrations/illustration2.svg"}
           />
-          <Title>{title || "Linguagens"}</Title>
+          <Title>{title || "Humanas"}</Title>
           <Subtitle>{subtitle || "5 vídeos - 3 horas"}</Subtitle>
           <PlayWrapper>
             <Play src="images/icons/play.svg" />
@@ -61,7 +61,7 @@ export default function ENEMCards(props) {
           <Illustration
             src={src || "/images/illustrations/illustration3.svg"}
           />
-          <Title>{title || "Linguagens"}</Title>
+          <Title>{title || "Natureza"}</Title>
           <Subtitle>{subtitle || "5 vídeos - 3 horas"}</Subtitle>
           <PlayWrapper>
             <Play src="images/icons/play.svg" />
@@ -81,7 +81,7 @@ export default function ENEMCards(props) {
           <Illustration
             src={src || "/images/illustrations/illustration4.svg"}
           />
-          <Title>{title || "Linguagens"}</Title>
+          <Title>{title || "Matemática"}</Title>
           <Subtitle>{subtitle || "5 vídeos - 3 horas"}</Subtitle>
           <PlayWrapper>
             <Play src="images/icons/play.svg" />
@@ -101,7 +101,7 @@ export default function ENEMCards(props) {
           <Illustration
             src={src || "/images/illustrations/illustration5.svg"}
           />
-          <Title>{title || "Linguagens"}</Title>
+          <Title>{title || "Redação"}</Title>
           <Subtitle>{subtitle || "5 vídeos - 3 horas"}</Subtitle>
           <PlayWrapper>
             <Play src="images/icons/play.svg" />
