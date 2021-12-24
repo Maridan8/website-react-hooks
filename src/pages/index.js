@@ -3,9 +3,11 @@ import Layout from "../components/layout/layout";
 import SEO from "../components/layout/seo";
 import CreatorSection from "../components/sections/CreatorSection";
 import ENEMSection from "../components/sections/ENEMSection";
+import FooterSection from "../components/sections/FooterSection";
 
 import HeroSection from "../components/sections/HeroSection";
 import IdiomsSection from "../components/sections/IdiomsSection";
+import SocialMediaSection from "../components/sections/SocialMediaSection";
 import TechSection from "../components/sections/TechSection";
 import TestimonialSection from "../components/sections/TestimonialSection";
 function IndexPage() {
@@ -18,6 +20,8 @@ function IndexPage() {
       <TestimonialSection />
       <ENEMSection />
       <TechSection />
+      <SocialMediaSection />
+      <FooterSection />
     </Layout>
   );
 }

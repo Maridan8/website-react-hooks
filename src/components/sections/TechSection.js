@@ -30,7 +30,7 @@ export default function TechSection() {
 const Wrapper = styled.div``;
 
 const ContentWrapper = styled.div`
-  padding: 350px;
+  padding: 400px;
   display: grid;
   place-items: center;
 `;

@@ -93,6 +93,7 @@ const Testimonial = styled.div`
   }
   :hover {
     filter: hue-rotate(10deg) brightness(120%) saturate(120%);
+    transform: scale(1.05);
   }
 `;
 
