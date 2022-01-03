@@ -51,13 +51,6 @@ const ContentWrapper = styled.div`
   padding-left: 60px;
   display: grid;
   grid-template-columns: 530px auto;
-
-  @media (max-width: 500px) {
-    // Adaptive Layout
-    grid-template-columns: 1fr;
-    gap: 100px;
-    margin: 0 auto;
-  }
 `;
 
 const TextWrapper = styled.div`
@@ -103,9 +96,6 @@ const Title = styled(H1)`
 const Description = styled(MediumText)``;
 
 const MockupWrapper = styled.div`
-  min-height: 300px;
-  max-width: 570px;
-  display: grid;
-  gap: 30px;
+  justify-content: center;
   position: relative;
 `;

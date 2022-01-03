@@ -52,6 +52,11 @@ const ContentWrapper = styled.div`
     margin: 0 auto;
     align-items: center;
   } */
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
 `;
 const TextWrapper = styled.div`
   // TextWrapper is the text area

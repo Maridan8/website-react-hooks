@@ -126,11 +126,6 @@ const Wrapper = styled.div`
   align-content: center;
 
   z-index: -1;
-
-  @media (max-width: 500px) {
-    transform: scale(0.5);
-    transform-origin: top left;
-  }
 `;
 const Logo = styled.img`
   animation-name: ${animationL};
