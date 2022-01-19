@@ -1,8 +1,7 @@
-import React from "react"
-import { Link } from "gatsby"
-import Layout from "../components/layout/layout"
-import SEO from "../components/layout/seo"
-import UpdatesSection from "../components/sections/UpdatesSection"
+import React from "react";
+import Layout from "../components/layout/layout";
+import SEO from "../components/layout/seo";
+import UpdatesSection from "../components/sections/UpdatesSection";
 
 function SecondPage() {
   return (
@@ -10,7 +9,7 @@ function SecondPage() {
       <SEO title="Page two" />
       <UpdatesSection />
     </Layout>
-  )
+  );
 }
 
-export default SecondPage
+export default SecondPage;

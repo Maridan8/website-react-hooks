@@ -7,12 +7,36 @@ export default function SocialMediaSection() {
     <Wrapper>
       <ContentWrapper>
         <SocialMedia>
-          <PurchaseButton title="INSTAGRAM" subtitle="@joaocarlos_mag" />
-          <PurchaseButton title="TWITTER" subtitle="@joaocarlos.mag" />
-          <PurchaseButton title="YOUTUBE" subtitle="@João Carlos Magalhães" />
-          <PurchaseButton title="GITHUB" subtitle="@joaocarlos-mag" />
-          <PurchaseButton title="TIKTOK" subtitle="@joaocarlos.mag" />
-          <PurchaseButton title="LINKEDIN" subtitle="@João Carlos Magalhães" />
+          <PurchaseButton
+            url="https://www.instagram.com/joaocarlos_mag/"
+            title="INSTAGRAM"
+            subtitle="@joaocarlos_mag"
+          />
+          <PurchaseButton
+            url="https://twitter.com/joaocarlos_mag"
+            title="TWITTER"
+            subtitle="@joaocarlos.mag"
+          />
+          <PurchaseButton
+            url="https://www.youtube.com/c/JoãoCarlosMagalhães/featured"
+            title="YOUTUBE"
+            subtitle="@João Carlos Magalhães"
+          />
+          <PurchaseButton
+            url="https://github.com/joaocarlos-mag"
+            title="GITHUB"
+            subtitle="@joaocarlos-mag"
+          />
+          <PurchaseButton
+            url="https://vm.tiktok.com/ZMLdMuPB4/"
+            title="TIKTOK"
+            subtitle="@joaocarlos.mag"
+          />
+          <PurchaseButton
+            url="https://www.linkedin.com/in/joão-carlos-magalhães-a0b068218/"
+            title="LINKEDIN"
+            subtitle="@João Carlos Magalhães"
+          />
         </SocialMedia>
         <IPhone src="/images/illustrations/iPhone.svg" />
       </ContentWrapper>

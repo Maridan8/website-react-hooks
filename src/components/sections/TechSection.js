@@ -32,7 +32,8 @@ const Wrapper = styled.div``;
 const ContentWrapper = styled.div`
   padding: 400px;
   display: grid;
-  place-items: center;
+  text-align: center;
+  position: relative;
 `;
 
 const TextWrapper = styled.div`
@@ -41,7 +42,7 @@ const TextWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 0px;
-
+  text-align: center;
   position: absolute;
   max-width: 460px;
   gap: 20px;
@@ -66,9 +67,8 @@ const SmallTitle = styled(Caption2)`
 
 const IconsWrapper = styled.div`
   display: grid;
-
   grid-template-columns: 250px 250px 250px 250px 250px;
-  align-items: center;
+  align-content: center;
   padding-top: 300px;
   place-items: center;
   position: absolute;

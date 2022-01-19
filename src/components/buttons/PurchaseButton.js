@@ -1,12 +1,12 @@
-import { Link } from "gatsby"
-import React from "react"
-import styled from "styled-components"
-import { Caption2, SmallText } from "../styles/TextStyles"
+import { Link } from "gatsby";
+import React from "react";
+import styled from "styled-components";
+import { Caption2, SmallText } from "../styles/TextStyles";
 
 export default function PurchaseButton(props) {
-  const { title, subtitle } = props
+  const { url, title, subtitle } = props;
   return (
-    <Link to="/">
+    <a href={url || "https://joaocarlosmag.netlify.app"}>
       <Wrapper>
         <IconWrapper>
           <Icon src="/images/icons/credit.svg" className="icon" />
@@ -17,8 +17,8 @@ export default function PurchaseButton(props) {
           <Subtitle>{subtitle || "$19 per month"}</Subtitle>
         </TextWrapper>
       </Wrapper>
-    </Link>
-  )
+    </a>
+  );
 }
 
 const Wrapper = styled.div`
@@ -50,26 +50,26 @@ const Wrapper = styled.div`
       transform: scale(1.2);
     }
   }
-`
+`;
 
 const TextWrapper = styled.div`
   display: grid;
   gap: 4px;
-`
+`;
 
 const Title = styled(Caption2)`
   color: black;
-`
+`;
 
 const Subtitle = styled(SmallText)`
   color: black;
   opacity: 0.7;
-`
+`;
 
 const Icon = styled.img`
   width: 29px;
   height: 29px;
-`
+`;
 
 const Ring = styled.img`
   position: absolute;
@@ -79,7 +79,7 @@ const Ring = styled.img`
   ${Wrapper}:hover & {
     transform: rotate(30deg) scale(1.2) translate(1px, 1px);
   }
-`
+`;
 
 const IconWrapper = styled.div`
   width: 45px;
@@ -95,4 +95,4 @@ const IconWrapper = styled.div`
   ${Wrapper}:hover & {
     filter: hue-rotate(10deg) brightness(150%) saturate(120%);
   }
-`
+`;

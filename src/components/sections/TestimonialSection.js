@@ -2,12 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import LearnMoreButton from "../buttons/LearnMoreButton";
 import {
-  BodyIntro,
   Caption,
   Caption2,
   H2,
   MediumText,
-  H3,
   BodyMain,
   SmallText2,
 } from "../styles/TextStyles";
@@ -17,7 +15,7 @@ export default function TestimonialSection() {
     <Wrapper>
       <ContentWrapper>
         <Testimonial>
-          <Avatar src="images/avatars/lis.png" />
+          <Avatar src="images/avatars/lisane.png" />
           <Name>Lisane Mariádne</Name>
           <Profession>PROFESSORA DE REDAÇÃO</Profession>
           <Text>

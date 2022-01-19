@@ -1,5 +1,5 @@
 import React from "react";
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 import { CreatorWaves } from "../backgrounds/CreatorWaves";
 import HandBook from "../buttons/Handbook";
 import LearnMoreButton from "../buttons/LearnMoreButton";

@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { ENEMWaves } from "../backgrounds/ENEMWaves";
 import ENEMCards from "../buttons/ENEMCards";
 import LearnMoreButton from "../buttons/LearnMoreButton";
-import ReactPlayer from "react-player";
+// import ReactPlayer from "react-player";
 import { Caption2, H2, MediumText } from "../styles/TextStyles";
 
 export default function ENEMSection() {
@@ -78,9 +78,9 @@ const Description = styled(MediumText)`
   color: white;
 `;
 
-const Video = styled.div`
-  padding-top: 100px;
-  padding-left: 260px;
-  padding-right: 260px;
-  justify-content: center;
-`;
+// const Video = styled.div`
+//   padding-top: 100px;
+//   padding-left: 260px;
+//   padding-right: 260px;
+//   justify-content: center;
+// `;

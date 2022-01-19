@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Caption, Caption2, H3, SmallText2 } from "../styles/TextStyles";
+import { Caption, H3, SmallText2 } from "../styles/TextStyles";
 
 export default function HandBook(props) {
   const { src, title, subtitle, pdf } = props;

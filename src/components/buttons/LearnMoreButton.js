@@ -52,8 +52,6 @@ const Wrapper = styled.div`
   }
 `;
 
-const TextWrapper = styled.div``;
-
 const Subtitle = styled(BodyIntro)`
   color: white;
   font-size: 16px;
