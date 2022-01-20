@@ -1,9 +1,8 @@
-import React from "react"
-import styled from "styled-components"
-import MockupAnimation from "../animations/MockupAnimation"
-import WaveBackground from "../backgrounds/WaveBackground"
-import { H1, SmallText } from "../styles/TextStyles"
-import Header from "../layout/Header"
+import React from "react";
+import styled from "styled-components";
+import MockupAnimation from "../animations/MockupAnimation";
+import WaveBackground from "../backgrounds/WaveBackground";
+import { H1, SmallText } from "../styles/TextStyles";
 
 export default function UpdatesSection() {
   return (
@@ -21,19 +20,19 @@ export default function UpdatesSection() {
         </TextWrapper>
       </ContentWrapper>
     </Wrapper>
-  )
+  );
 }
 
 const Wrapper = styled.div`
   position: relative;
   overflow: hidden;
-`
+`;
 
 const MockupWrapper = styled.div`
   width: 50%;
   height: max-content;
   margin: 0 auto;
-`
+`;
 
 const ContentWrapper = styled.div`
   max-width: 1234px;
@@ -47,7 +46,7 @@ const ContentWrapper = styled.div`
     gap: 100px;
     margin: 0 auto;
   }
-`
+`;
 
 const TextWrapper = styled.div`
   display: grid;
@@ -55,8 +54,8 @@ const TextWrapper = styled.div`
   text-align: center;
 
   z-index: 2;
-`
+`;
 
-const Title = styled(H1)``
+const Title = styled(H1)``;
 
-const Description = styled(SmallText)``
+const Description = styled(SmallText)``;

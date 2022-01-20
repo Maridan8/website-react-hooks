@@ -56,6 +56,7 @@ const Wrapper = styled.div``;
 
 const ContentWrapper = styled.div`
   max-width: 1234px;
+  overflow: hidden;
   margin: 0 auto; // center in the screen
   padding-top: 30px;
   padding-right: 30px;
@@ -73,7 +74,7 @@ const Testimonial = styled.div`
   position: relative;
 
   background: rgba(15, 14, 71, 0.5);
-  box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 12px 35px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(40px);
   /* Note: backdrop-filter has minimal browser support */
 
@@ -90,6 +91,7 @@ const Testimonial = styled.div`
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
   :hover {
+    box-shadow: 0px 12px 35px rgba(0, 0, 0, 0.25);
     filter: hue-rotate(10deg) brightness(120%) saturate(120%);
     transform: scale(1.05);
   }

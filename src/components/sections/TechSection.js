@@ -30,6 +30,7 @@ export default function TechSection() {
 const Wrapper = styled.div``;
 
 const ContentWrapper = styled.div`
+  overflow: hidden;
   padding: 400px;
   display: grid;
   text-align: center;

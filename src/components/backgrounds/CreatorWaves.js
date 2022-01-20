@@ -14,7 +14,7 @@ export function CreatorWaves() {
         style={{ top: "200px", filter: "blur(50px)" }}
       />
       <Wave
-        src="/images/waves/certificate-wave4.svg"
+        src="/images/waves/creator-wave4.svg"
         style={{ top: "300px", filter: "blur(50px)" }}
       />
       <Wave

@@ -1,4 +1,4 @@
-import { Link } from "gatsby";
+// import { Link } from "gatsby";
 import React from "react";
 import styled from "styled-components";
 import { Caption2, SmallText } from "../styles/TextStyles";

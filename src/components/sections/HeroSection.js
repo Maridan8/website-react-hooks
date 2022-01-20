@@ -48,7 +48,7 @@ const ContentWrapper = styled.div`
   padding-top: 220px;
   padding-right: 30px;
   padding-bottom: 270px;
-  padding-left: 60px;
+  padding-left: 30px;
   display: grid;
   grid-template-columns: 530px auto;
 `;
