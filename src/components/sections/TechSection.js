@@ -37,6 +37,7 @@ const ContentWrapper = styled.div`
   display: grid;
   text-align: center;
   position: relative;
+  overflow: hidden;
 `;
 
 const TextWrapper = styled.div`

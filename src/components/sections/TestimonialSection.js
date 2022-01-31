@@ -8,13 +8,14 @@ import {
   MediumText,
   BodyMain,
   SmallText2,
+  Testimonial,
 } from "../styles/TextStyles";
 
 export default function TestimonialSection() {
   return (
     <Wrapper>
       <ContentWrapper>
-        <Testimonial>
+        <LisTestimonial>
           <Avatar src="images/avatars/lisane.png" />
           <Name>Lisane Mariádne</Name>
           <Profession>PROFESSORA DE REDAÇÃO</Profession>
@@ -25,8 +26,8 @@ export default function TestimonialSection() {
             fácil ou simples de encarar cotidianamente. Além dos merecidíssimos
             parabéns, obrigada, João!
           </Text>
-        </Testimonial>
-        <Testimonial>
+        </LisTestimonial>
+        <FranTestimonial>
           <Avatar src="images/avatars/Francielly.png" />
           <Name>Francielly Freire</Name>
           <Profession>PROFESSORA DE PORTUGUÊS</Profession>
@@ -37,7 +38,7 @@ export default function TestimonialSection() {
             de um rapaz ainda muito jovem. Enxergo coerência em seus passos,
             nitidamente percorridos com a dedicação que lhe é peculiar.
           </Text>
-        </Testimonial>
+        </FranTestimonial>
         <TextWrapper>
           <SmallTitle>DEPOIMENTO DE</SmallTitle>
           <Title>PROFESSORES</Title>
@@ -66,25 +67,36 @@ const ContentWrapper = styled.div`
   grid-template-columns: 400px 400px 400px;
   align-items: center;
   align-content: center;
+
+  @media (max-width: 550px) {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 50px;
+  }
 `;
 
-const Testimonial = styled.div`
-  width: 340px;
-  height: 346px;
-  position: relative;
+const LisTestimonial = styled(Testimonial)`
+  @media (max-width: 550px) {
+    transform: scale(0.95);
+    order: 2;
+  }
 
-  background: rgba(15, 14, 71, 0.5);
-  box-shadow: 0px 12px 35px rgba(0, 0, 0, 0.25);
-  backdrop-filter: blur(40px);
-  /* Note: backdrop-filter has minimal browser support */
+  *,
+  & {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  :hover {
+    box-shadow: 0px 12px 35px rgba(0, 0, 0, 0.25);
+    filter: hue-rotate(10deg) brightness(120%) saturate(120%);
+    transform: scale(1.05);
+  }
+`;
 
-  border-radius: 20px;
-  align-items: center;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  display: grid;
+const FranTestimonial = styled(Testimonial)`
+  @media (max-width: 550px) {
+    transform: scale(0.95);
+    order: 3;
+  }
 
   *,
   & {
@@ -103,6 +115,9 @@ const TextWrapper = styled.div`
   padding-top: 30px;
   display: grid;
   gap: 30px;
+  @media (max-width: 550px) {
+    order: 1;
+  }
 `;
 
 const Title = styled(H2)`
