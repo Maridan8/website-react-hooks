@@ -59,9 +59,8 @@ const ContentWrapper = styled.div`
     grid-template-columns: 1fr;
     justify-items: center;
   }
-  @media (max-width: 600px) {
-    grid-template-columns: 1fr;
-    justify-items: center;
+  @media (max-width: 550px) {
+    gap: 30px;
   }
 `;
 const TextWrapper = styled.div`
@@ -77,8 +76,9 @@ const IdiomsWrapper = styled.div`
   grid-template-columns: auto auto auto;
   gap: 50px;
 
-  @media (max-width: 600px) {
-    gap: 20px;
+  @media (max-width: 550px) {
+    grid-template-columns: 1fr;
+    justify-items: center;
   }
 `;
 

@@ -27,7 +27,9 @@ export default function TechSection() {
   );
 }
 
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+  overflow: hidden;
+`;
 
 const ContentWrapper = styled.div`
   overflow: hidden;

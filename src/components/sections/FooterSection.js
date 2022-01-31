@@ -11,6 +11,8 @@ export default function FooterSection() {
   );
 }
 
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+  overflow: hidden;
+`;
 
 const ContentWrapper = styled.div``;

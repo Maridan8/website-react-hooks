@@ -44,7 +44,9 @@ export default function SocialMediaSection() {
   );
 }
 
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+  overflow: hidden;
+`;
 
 const ContentWrapper = styled.div`
   padding: 100px;

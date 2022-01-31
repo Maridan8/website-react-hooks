@@ -22,18 +22,20 @@ export default function CreatorSection() {
           </Description>
           <LearnMoreButton />
         </TextWrapper>
-        <HandBook
-          src="/images/icons/handbookRed.svg"
-          title="Como ser estudioso"
-          subtitle="Conheça a maneira que eu utilizo para estudar melhor"
-          pdf="Guia do estudo perfeito"
-        />
-        <HandBook
-          src="/images/icons/handbookBlue.svg"
-          title="Técnicas de programação"
-          subtitle="Dicas para iniciantes em programação"
-          pdf="Aprendendo a pensar"
-        />
+        <HandBookWrapper>
+          <HandBook
+            src="/images/icons/handbookRed.svg"
+            title="Como ser estudioso"
+            subtitle="Conheça a maneira que eu utilizo para estudar melhor"
+            pdf="Guia do estudo perfeito"
+          />
+          <HandBook
+            src="/images/icons/handbookBlue.svg"
+            title="Técnicas de programação"
+            subtitle="Dicas para iniciantes em programação"
+            pdf="Aprendendo a pensar"
+          />
+        </HandBookWrapper>
       </ContentWrapper>
     </Wrapper>
   );
@@ -55,9 +57,20 @@ const ContentWrapper = styled.div`
   padding-bottom: 100px;
   padding-left: 30px;
   display: grid;
-  grid-template-columns: 450px 400px 100px;
+  grid-template-columns: auto auto;
   align-items: center;
   align-content: center;
+
+  @media (max-width: 1100px) {
+    grid-template-columns: 1fr;
+    justify-items: left;
+    gap: 50px;
+  }
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 20px;
+  }
 `;
 
 const TextWrapper = styled.div`
@@ -65,6 +78,22 @@ const TextWrapper = styled.div`
   max-width: 360px;
   display: grid;
   gap: 30px;
+`;
+
+const HandBookWrapper = styled.div`
+  display: grid;
+  max-width: 900px;
+  grid-template-columns: auto auto;
+  gap: 50px;
+
+  @media (max-width: 600px) {
+    gap: 20px;
+  }
+  @media (max-width: 700px) {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 20px;
+  }
 `;
 
 const Title = styled(H2)`
