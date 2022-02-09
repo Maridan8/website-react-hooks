@@ -34,6 +34,7 @@ const Wrapper = styled.div`
   align-items: center;
   overflow: hidden;
   padding-bottom: 50px;
+  gap: 600px;
 
   // Wrapper is the background
 `;
@@ -79,6 +80,7 @@ const IdiomsWrapper = styled.div`
   @media (max-width: 550px) {
     grid-template-columns: 1fr;
     justify-items: center;
+    gap: 5px;
   }
 `;
 

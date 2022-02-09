@@ -60,6 +60,7 @@ const ContentWrapper = styled.div`
   grid-template-columns: auto auto;
   align-items: center;
   align-content: center;
+  gap: 60px;
 
   @media (max-width: 1100px) {
     grid-template-columns: 1fr;

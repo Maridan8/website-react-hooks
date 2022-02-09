@@ -29,7 +29,7 @@ export default function TestimonialSection() {
             </Text>
           </LisTestimonial>
           <FranTestimonial>
-            <Avatar src="images/avatars/Francielly.png" />
+            <Avatar src="images/avatars/francielly.png" />
             <Name>Francielly Freire</Name>
             <Profession>PROFESSORA DE PORTUGUÊS</Profession>
             <Text>
@@ -76,12 +76,6 @@ const ContentWrapper = styled.div`
     justify-items: center;
     gap: 50px;
   }
-
-  @media (max-width: 550px) {
-    grid-template-columns: 1fr;
-    justify-items: center;
-    gap: 50px;
-  }
 `;
 
 const TestimonialWrapper = styled.div`
@@ -94,18 +88,10 @@ const TestimonialWrapper = styled.div`
     grid-template-columns: 1fr;
     justify-items: center;
     gap: 50px;
+    order: 2;
   }
 `;
 const LisTestimonial = styled(Testimonial)`
-  @media (max-width: 1100px) {
-    transform: scale(0.95);
-    order: 3;
-  }
-  @media (max-width: 550px) {
-    transform: scale(0.95);
-    order: 3;
-  }
-
   *,
   & {
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -118,15 +104,6 @@ const LisTestimonial = styled(Testimonial)`
 `;
 
 const FranTestimonial = styled(Testimonial)`
-  @media (max-width: 1100px) {
-    transform: scale(0.95);
-    order: 3;
-  }
-  @media (max-width: 550px) {
-    transform: scale(0.95);
-    order: 3;
-  }
-
   *,
   & {
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -147,9 +124,6 @@ const TextWrapper = styled.div`
   gap: 30px;
   max-width: 360px;
   @media (max-width: 1100px) {
-    order: 1;
-  }
-  @media (max-width: 550px) {
     order: 1;
   }
 `;
