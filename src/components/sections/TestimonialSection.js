@@ -15,30 +15,32 @@ export default function TestimonialSection() {
   return (
     <Wrapper>
       <ContentWrapper>
-        <LisTestimonial>
-          <Avatar src="images/avatars/lisane.png" />
-          <Name>Lisane Mariádne</Name>
-          <Profession>PROFESSORA DE REDAÇÃO</Profession>
-          <Text>
-            Fui sua professora durante o Ensino Fundamental e, naquele momento,
-            já era clara a sua maturidade. Sempre que vejo seus avanços, fico
-            com esperança em persistir em meu trabalho docente, que não é nada
-            fácil ou simples de encarar cotidianamente. Além dos merecidíssimos
-            parabéns, obrigada, João!
-          </Text>
-        </LisTestimonial>
-        <FranTestimonial>
-          <Avatar src="images/avatars/Francielly.png" />
-          <Name>Francielly Freire</Name>
-          <Profession>PROFESSORA DE PORTUGUÊS</Profession>
-          <Text>
-            Centrado, autônomo, decidido, João alegrou meu coração com seu
-            jeitinho. Suas dúvidas sobre conteúdos complexos motivaram
-            discussões enriquecedoras e revelaram a postura humilde e disposta
-            de um rapaz ainda muito jovem. Enxergo coerência em seus passos,
-            nitidamente percorridos com a dedicação que lhe é peculiar.
-          </Text>
-        </FranTestimonial>
+        <TestimonialWrapper>
+          <LisTestimonial>
+            <Avatar src="images/avatars/lisane.png" />
+            <Name>Lisane Mariádne</Name>
+            <Profession>PROFESSORA DE REDAÇÃO</Profession>
+            <Text>
+              Fui sua professora durante o Ensino Fundamental e, naquele
+              momento, já era clara a sua maturidade. Sempre que vejo seus
+              avanços, fico com esperança em persistir em meu trabalho docente,
+              que não é nada fácil ou simples de encarar cotidianamente. Além
+              dos merecidíssimos parabéns, obrigada, João!
+            </Text>
+          </LisTestimonial>
+          <FranTestimonial>
+            <Avatar src="images/avatars/Francielly.png" />
+            <Name>Francielly Freire</Name>
+            <Profession>PROFESSORA DE PORTUGUÊS</Profession>
+            <Text>
+              Centrado, autônomo, decidido, João alegrou meu coração com seu
+              jeitinho. Suas dúvidas sobre conteúdos complexos motivaram
+              discussões enriquecedoras e revelaram a postura humilde e disposta
+              de um rapaz ainda muito jovem. Enxergo coerência em seus passos,
+              nitidamente percorridos com a dedicação que lhe é peculiar.
+            </Text>
+          </FranTestimonial>
+        </TestimonialWrapper>
         <TextWrapper>
           <SmallTitle>DEPOIMENTO DE</SmallTitle>
           <Title>PROFESSORES</Title>
@@ -64,9 +66,16 @@ const ContentWrapper = styled.div`
   padding-bottom: 100px;
   padding-left: 30px;
   display: grid;
-  grid-template-columns: 400px 400px 400px;
+  grid-template-columns: auto auto auto;
   align-items: center;
   align-content: center;
+  gap: 50px;
+
+  @media (max-width: 1100px) {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 50px;
+  }
 
   @media (max-width: 550px) {
     grid-template-columns: 1fr;
@@ -75,10 +84,26 @@ const ContentWrapper = styled.div`
   }
 `;
 
+const TestimonialWrapper = styled.div`
+  display: grid;
+  max-width: 900px;
+  grid-template-columns: auto auto;
+  gap: 50px;
+
+  @media (max-width: 1100px) {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 50px;
+  }
+`;
 const LisTestimonial = styled(Testimonial)`
+  @media (max-width: 1100px) {
+    transform: scale(0.95);
+    order: 3;
+  }
   @media (max-width: 550px) {
     transform: scale(0.95);
-    order: 2;
+    order: 3;
   }
 
   *,
@@ -93,6 +118,10 @@ const LisTestimonial = styled(Testimonial)`
 `;
 
 const FranTestimonial = styled(Testimonial)`
+  @media (max-width: 1100px) {
+    transform: scale(0.95);
+    order: 3;
+  }
   @media (max-width: 550px) {
     transform: scale(0.95);
     order: 3;
@@ -110,11 +139,16 @@ const FranTestimonial = styled(Testimonial)`
 `;
 
 const TextWrapper = styled.div`
-  padding-left: 30px;
+  align-items: center;
+  align-content: center;
   padding-right: 30px;
   padding-top: 30px;
   display: grid;
   gap: 30px;
+  max-width: 360px;
+  @media (max-width: 1100px) {
+    order: 1;
+  }
   @media (max-width: 550px) {
     order: 1;
   }

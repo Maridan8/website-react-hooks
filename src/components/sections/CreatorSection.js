@@ -63,7 +63,7 @@ const ContentWrapper = styled.div`
 
   @media (max-width: 1100px) {
     grid-template-columns: 1fr;
-    justify-items: left;
+    justify-items: center;
     gap: 50px;
   }
   @media (max-width: 900px) {
