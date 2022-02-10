@@ -42,7 +42,10 @@ const ContentWrapper = styled.div`
   // ContentWrapper is the content area
   max-width: 1234px;
   margin: 0 auto; // center in the screen
-  padding: 50px 50px 30px 30px; //200px top and bottom; 30px right and left
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+  padding-left: 30px; //200px top and bottom; 30px right and left
   display: grid;
   grid-template-columns: auto auto;
   align-items: center;

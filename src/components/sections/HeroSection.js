@@ -47,7 +47,7 @@ const ContentWrapper = styled.div`
   margin: 0 auto;
   padding-top: 220px;
   padding-right: 30px;
-  padding-bottom: 270px;
+  padding-bottom: 220px;
   padding-left: 30px;
   display: grid;
   grid-template-columns: 530px auto;
@@ -80,7 +80,6 @@ const Title = styled(H1)`
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  font-size: 4em;
   span {
     background: linear-gradient(180deg, #ffd7ff 0%, #ffb6ff 100%);
     background-clip: text;
@@ -89,7 +88,7 @@ const Title = styled(H1)`
   }
 
   @media (max-width: 450px) {
-    /* font-size: 45px; */
+    font-size: 40px;
   }
 `;
 

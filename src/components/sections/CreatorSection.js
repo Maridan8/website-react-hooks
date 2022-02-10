@@ -88,12 +88,12 @@ const HandBookWrapper = styled.div`
   gap: 50px;
 
   @media (max-width: 600px) {
-    gap: 20px;
+    gap: 10px;
   }
   @media (max-width: 700px) {
     grid-template-columns: 1fr;
     justify-items: center;
-    gap: 20px;
+    gap: 10px;
   }
 `;
 

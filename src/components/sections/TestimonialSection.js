@@ -90,6 +90,9 @@ const TestimonialWrapper = styled.div`
     gap: 50px;
     order: 2;
   }
+  @media (max-width: 400px) {
+    transform: scale(0.9);
+  }
 `;
 const LisTestimonial = styled(Testimonial)`
   *,

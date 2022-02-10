@@ -19,7 +19,7 @@ export function CreatorWaves() {
       /> */}
       <Wave
         src="/images/waves/certificate-lines.svg"
-        style={{ top: "350px" }}
+        style={{ top: "300px" }}
       />
     </Wrapper>
   );
