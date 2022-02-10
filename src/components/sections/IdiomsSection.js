@@ -72,6 +72,14 @@ const TextWrapper = styled.div`
   max-width: 360px;
   display: grid;
   gap: 30px;
+  @media (max-width: 900px) {
+    padding-bottom: 80px;
+  }
+  @media (max-width: 550px) {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 5px;
+  }
 `;
 
 const IdiomsWrapper = styled.div`
@@ -83,6 +91,7 @@ const IdiomsWrapper = styled.div`
   @media (max-width: 550px) {
     grid-template-columns: 1fr;
     justify-items: center;
+    padding-top: 40px;
     gap: 5px;
   }
 `;

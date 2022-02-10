@@ -20,10 +20,6 @@ export default function Icons(props) {
 }
 
 const Wrapper = styled.div`
-  width: 120px;
-  height: 180px;
-  padding: 35px;
-
   @media (max-width: 600px) {
     grid-template-columns: 1fr;
     padding-left: 0px;

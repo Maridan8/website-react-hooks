@@ -80,7 +80,6 @@ const ContentWrapper = styled.div`
 
 const TestimonialWrapper = styled.div`
   display: grid;
-
   grid-template-columns: auto auto;
   gap: 50px;
 
@@ -91,7 +90,7 @@ const TestimonialWrapper = styled.div`
     order: 2;
   }
   @media (max-width: 400px) {
-    transform: scale(0.8);
+    transform: scale(0.75);
   }
 `;
 const LisTestimonial = styled(Testimonial)`
