@@ -80,7 +80,7 @@ const Title = styled(H1)`
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-
+  font-size: 4em;
   span {
     background: linear-gradient(180deg, #ffd7ff 0%, #ffb6ff 100%);
     background-clip: text;
@@ -89,7 +89,7 @@ const Title = styled(H1)`
   }
 
   @media (max-width: 450px) {
-    font-size: 45px;
+    /* font-size: 45px; */
   }
 `;
 

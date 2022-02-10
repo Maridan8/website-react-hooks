@@ -61,6 +61,7 @@ const IPhone = styled.img`
 `;
 
 const SocialMedia = styled.div`
+  max-width: 800px;
   display: grid;
   grid-template-columns: 400px 400px;
 `;
