@@ -92,7 +92,9 @@ const Title = styled(H1)`
   }
 `;
 
-const Description = styled(MediumText)``;
+const Description = styled(MediumText)`
+  font-size: 18px;
+`;
 
 const MockupWrapper = styled.div`
   justify-content: center;

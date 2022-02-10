@@ -63,9 +63,7 @@ const ContentWrapper = styled.div`
   gap: 60px;
 
   @media (max-width: 1100px) {
-    grid-template-columns: 1fr;
-    justify-items: center;
-    gap: 50px;
+    transform: scale(0.92);
   }
   @media (max-width: 900px) {
     grid-template-columns: 1fr;
@@ -79,6 +77,7 @@ const TextWrapper = styled.div`
   max-width: 360px;
   display: grid;
   gap: 30px;
+  padding-bottom: 25px;
 `;
 
 const HandBookWrapper = styled.div`
@@ -87,13 +86,9 @@ const HandBookWrapper = styled.div`
   grid-template-columns: auto auto;
   gap: 50px;
 
-  @media (max-width: 600px) {
-    gap: 10px;
-  }
   @media (max-width: 700px) {
     grid-template-columns: 1fr;
-    justify-items: center;
-    gap: 10px;
+    gap: 0px;
   }
 `;
 
