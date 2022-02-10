@@ -54,7 +54,7 @@ const ContentWrapper = styled.div`
 `;
 
 const TextWrapper = styled.div`
-  max-width: 460px;
+  max-width: 360px;
   display: grid;
   gap: 30px;
 
