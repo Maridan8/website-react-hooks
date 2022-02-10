@@ -1,4 +1,4 @@
-# Website with React Hooks, Styled Components & Gatsby
+# Website made with React & Gatsby
 
 Learn how I built my own site with **React Hooks** using _Gatsby_, _Netlify_, _Vercel_, and advanced CSS techniques with _Styled Components_.
 
