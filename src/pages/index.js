@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../components/layout/layout";
 import SEO from "../components/layout/seo";
+import TechSection from "../components/sections/TechSection";
 import CreatorSection from "../components/sections/CreatorSection";
 import ENEMSection from "../components/sections/ENEMSection";
 import FooterSection from "../components/sections/FooterSection";
@@ -18,6 +19,7 @@ function IndexPage() {
       <CreatorSection />
       <TestimonialSection />
       <ENEMSection />
+      <TechSection />
       <SocialMediaSection />
       <FooterSection />
     </Layout>
