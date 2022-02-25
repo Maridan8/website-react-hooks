@@ -40,6 +40,7 @@ const Wrapper = styled.div`
 `;
 const ContentWrapper = styled.div`
   // ContentWrapper is the content area
+
   max-width: 1234px;
   margin: 0 auto; // center in the screen
   padding-top: 50px;
@@ -69,6 +70,7 @@ const ContentWrapper = styled.div`
 `;
 const TextWrapper = styled.div`
   // TextWrapper is the text area
+
   max-width: 360px;
   display: grid;
   gap: 30px;

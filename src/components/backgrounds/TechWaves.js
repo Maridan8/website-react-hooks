@@ -16,7 +16,7 @@ export default function TechWaves() {
       <Wave src="/images/waves/testimonial-wave4.svg" style={{ top: "50px" }} />
       <Wave
         src="/images/waves/testimonial-wave5.svg"
-        style={{ top: "400px" }}
+        style={{ top: "370px" }}
       />
       <Wave
         src="/images/waves/testimonial-wave6.svg"
@@ -27,8 +27,7 @@ export default function TechWaves() {
 }
 
 const Wrapper = styled.div`
-  max-width: 1234;
-  position: absolute;
+  position: relative;
 `;
 
 const Wave = styled.img`
