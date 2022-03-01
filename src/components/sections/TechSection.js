@@ -37,8 +37,6 @@ const Wrapper = styled.div`
 `;
 
 const ContentWrapper = styled.div`
-  padding-left: 80px;
-  padding-right: 80px;
   padding-top: 0px;
   padding-bottom: 100px;
 `;
@@ -56,12 +54,15 @@ const TextWrapper = styled.div`
   gap: 20px;
 `;
 const ToolsWrapper = styled.div`
+  padding-left: 80px;
+  padding-right: 80px;
   display: flex;
   justify-content: space-around;
 `;
 const Title = styled(H1)`
   color: white;
   text-align: center;
+  font-size: 4em;
 `;
 const SmallTitle = styled(Caption2)`
   line-height: 50%;
