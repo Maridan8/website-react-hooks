@@ -93,7 +93,8 @@ const Title = styled(H1)`
 `;
 
 const Description = styled(MediumText)`
-  font-size: 18px;
+  font-size: 17px;
+  line-height: 130%;
 `;
 
 const MockupWrapper = styled.div`

@@ -74,14 +74,7 @@ const TextWrapper = styled.div`
   max-width: 360px;
   display: grid;
   gap: 30px;
-  @media (max-width: 900px) {
-    padding-bottom: 80px;
-  }
-  @media (max-width: 550px) {
-    grid-template-columns: 1fr;
-    justify-items: center;
-    gap: 5px;
-  }
+  padding-bottom: 50px;
 `;
 
 const IdiomsWrapper = styled.div`

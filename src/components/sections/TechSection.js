@@ -32,13 +32,15 @@ export default function TechSection() {
   );
 }
 
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+  overflow: hidden;
+`;
 
 const ContentWrapper = styled.div`
   padding-left: 80px;
   padding-right: 80px;
   padding-top: 0px;
-  padding-bottom: 0px;
+  padding-bottom: 100px;
 `;
 const TextContainer = styled.div`
   display: flex;
