@@ -7,7 +7,6 @@ import ENEMSection from "../components/sections/ENEMSection";
 import styled from "styled-components";
 import HeroSection from "../components/sections/HeroSection";
 import IdiomsSection from "../components/sections/IdiomsSection";
-import SocialMediaSection from "../components/sections/SocialMediaSection";
 import TestimonialSection from "../components/sections/TestimonialSection";
 function IndexPage() {
   return (
@@ -20,7 +19,6 @@ function IndexPage() {
       <ENEMSection />
       <Skills />
       <TechSection />
-      {/* <SocialMediaSection /> */}
     </Layout>
   );
 }

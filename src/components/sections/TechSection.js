@@ -2,9 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import TechWaves from "../backgrounds/TechWaves";
 import { H1 } from "../styles/TextStyles";
-import LearnMoreButton from "../buttons/LearnMoreButton";
 // import ReactPlayer from "react-player";
-import { Caption2, H2, MediumText } from "../styles/TextStyles";
+import { Caption2, MediumText } from "../styles/TextStyles";
 
 export default function TechSection() {
   return (
