@@ -1,9 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import TechWaves from "../backgrounds/TechWaves";
-import { H1 } from "../styles/TextStyles";
-// import ReactPlayer from "react-player";
-import { Caption2, MediumText } from "../styles/TextStyles";
+import { H1, Caption2, MediumText } from "../styles/TextStyles";
 
 export default function TechSection() {
   return (
@@ -61,7 +59,6 @@ const ToolsWrapper = styled.div`
 const Title = styled(H1)`
   color: white;
   text-align: center;
-  font-size: 4em;
 `;
 const SmallTitle = styled(Caption2)`
   line-height: 50%;

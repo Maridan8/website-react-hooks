@@ -4,6 +4,7 @@ import SEO from "../components/layout/seo";
 import styled from "styled-components";
 import AppleHeroSection from "../components/sections/AppleHeroSection";
 import AppleContentSection from "../components/sections/AppleContentSection";
+import TechSection from "../components/sections/TechSection";
 
 function AboutPage() {
   return (
@@ -12,6 +13,7 @@ function AboutPage() {
       <Wrapper>
         <AppleHeroSection />
         <AppleContentSection />
+        <TechSection />
       </Wrapper>
     </Layout>
   );
