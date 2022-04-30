@@ -2,16 +2,16 @@ import React from "react";
 import Layout from "../components/layout/layout";
 import SEO from "../components/layout/seo";
 import styled from "styled-components";
-import WWDCHeroSection from "../components/sections/WWDCHeroSection";
+import AppleHeroSection from "../components/sections/AppleHeroSection";
 import AppleContentSection from "../components/sections/AppleContentSection";
 import TechSection from "../components/sections/TechSection";
 
-function AboutPage() {
+function ProjectsPage() {
   return (
     <Layout>
       <SEO title="Home" />
       <Wrapper>
-        <WWDCHeroSection />
+        <AppleHeroSection />
         <AppleContentSection />
         <TechSection />
       </Wrapper>
@@ -19,7 +19,7 @@ function AboutPage() {
   );
 }
 
-export default AboutPage;
+export default ProjectsPage;
 
 const Wrapper = styled.div`
   overflow: hidden;

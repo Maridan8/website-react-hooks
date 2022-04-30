@@ -100,4 +100,5 @@ const Description = styled(MediumText)`
 const MockupWrapper = styled.div`
   justify-content: center;
   position: relative;
+  z-index: -1;
 `;

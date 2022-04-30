@@ -13,7 +13,7 @@ export const menuData = [
   {
     title: "Projetos",
     icon: "/images/icons/livestreams.svg",
-    link: "/",
+    link: "/projects",
   },
   { title: "Contato", icon: "/images/icons/pricing.svg", link: "/contact" },
   { title: "", icon: "/images/icons/account.svg", link: "/" },
