@@ -9,12 +9,28 @@ import TechSection from "../components/sections/TechSection";
 function AboutPage() {
   return (
     <Layout>
-      <SEO title="Home" />
-      <Wrapper>
-        <WWDCHeroSection />
-        <AppleContentSection />
-        <TechSection />
-      </Wrapper>
+      <SEO title="About" />
+      {/* <video
+        autoPlay
+        loop
+        muted
+        style={{
+          position: "absolute",
+          width: "100%",
+          left: "50%",
+          top: "50%",
+          height: "100%",
+          objectFit: "cover",
+          transform: "translate(-50%, -50%)",
+          zIndex: "-1",
+        }}
+      >
+        <source src={Ipad} type="video/mp4" />
+      </video> */}
+      <AppleContentSection />
+      {/* <WWDCHeroSection />
+
+        <TechSection /> */}
     </Layout>
   );
 }

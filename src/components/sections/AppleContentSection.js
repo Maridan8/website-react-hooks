@@ -1,43 +1,36 @@
 import React from "react";
 import styled from "styled-components";
-import { BodyMain, H2 } from "../styles/TextStyles";
+import { H1 } from "../styles/TextStyles";
+import Ipad from "../assets/video/iPad.mp4";
 
 export default function AppleContentSection() {
   return (
     <Wrapper>
-      {/* <Macbook src="/images/illustrations/macbook.png" /> */}
       <ContentWrapper>
+        <video
+          autoPlay
+          loop
+          muted
+          style={{
+            position: "absolute",
+            width: "100%",
+            left: "50%",
+            top: "50%",
+            height: "100%",
+            objectFit: "cover",
+            transform: "translate(-50%, -50%)",
+            zIndex: "-1",
+          }}
+        >
+          <source src={Ipad} type="video/mp4" />
+        </video>
         <TextWrapper>
-          <Title2>WWDC22</Title2>
-          <Body>
-            Join developers worldwide from June 6 to 10 for an inspiring week of
-            technology and community. Get a first look at Apple’s latest
-            platforms and technologies in sessions, explore the newest tools and
-            tips, and connect with Apple experts in labs and digital lounges.
-            All online and at no cost.
-          </Body>
-          <Body>
-            In addition to the online conference, Apple will host a special day
-            for developers and students at Apple Park on June 6 to watch the
-            keynote and State of the Union videos together, along with the
-            online community. Space is limited and details on how to apply to
-            attend will be provided soon.
-          </Body>
-          <Title2>WWDC22</Title2>
-          <Body>
-            Join developers worldwide from June 6 to 10 for an inspiring week of
-            technology and community. Get a first look at Apple’s latest
-            platforms and technologies in sessions, explore the newest tools and
-            tips, and connect with Apple experts in labs and digital lounges.
-            All online and at no cost.
-          </Body>
-          <Body>
-            In addition to the online conference, Apple will host a special day
-            for developers and students at Apple Park on June 6 to watch the
-            keynote and State of the Union videos together, along with the
-            online community. Space is limited and details on how to apply to
-            attend will be provided soon.
-          </Body>
+          <Title>Think Different.</Title>
+          <Title>Think Different.</Title>
+          <Title>Think Different.</Title>
+          <Title>Think Different.</Title>
+          <Title>Think Different.</Title>
+          <Title>Think Different.</Title>
         </TextWrapper>
       </ContentWrapper>
     </Wrapper>
@@ -46,30 +39,36 @@ export default function AppleContentSection() {
 
 const Wrapper = styled.div`
   overflow: hidden;
+  height: 100%;
+  display: flex;
+  /* Full height */
+
+  /* Center and scale the image nicely */
 `;
 
 const ContentWrapper = styled.div`
   max-width: 1234px;
   margin: 0 auto;
-  padding-top: 40px;
+  padding-top: 240px;
   padding-right: 30px;
-  padding-bottom: 120px;
+  height: 100%;
   padding-left: 30px;
-  display: grid;
+  display: flex;
   overflow: hidden;
+  align-items: center;
+  align-self: center;
 `;
 
 const TextWrapper = styled.div`
+  align-self: center;
+  text-align: center;
+  align-items: center;
   display: grid;
-  gap: 10px;
+  gap: 100px;
 `;
 
-const Title2 = styled(H2)`
-  padding-top: 30px;
-  padding-bottom: 10px;
-  color: black;
-`;
-
-const Body = styled(BodyMain)`
-  color: black;
+const Title = styled(H1)`
+  text-align: center;
+  color: white;
+  text-shadow: -3px 0px 5px rgba(0, 0, 0, 0.25), 3px 3px 5px rgba(0, 0, 0, 0.25);
 `;

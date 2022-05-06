@@ -7,10 +7,6 @@ export default function WWDCHeroSection() {
   return (
     <Wrapper>
       <WWDC />
-      {/* <Wave
-        src="/images/waves/wwdc-wave.svg"
-        style={{ top: "300px", filter: "blur(60px)" }}
-      /> */}
       <ContentWrapper>
         <TextWrapper>
           <Title>Write code, glow minds.</Title>
