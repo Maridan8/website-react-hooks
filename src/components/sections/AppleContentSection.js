@@ -12,6 +12,7 @@ export default function AppleContentSection() {
           loop
           muted
           playsInline
+          poster="/images/illustrations/iPadAir.jpeg"
           style={{
             position: "absolute",
             width: "100%",
