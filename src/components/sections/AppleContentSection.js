@@ -11,6 +11,7 @@ export default function AppleContentSection() {
           autoPlay
           loop
           muted
+          playsInline
           style={{
             position: "absolute",
             width: "100%",
