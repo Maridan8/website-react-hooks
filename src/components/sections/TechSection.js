@@ -31,6 +31,7 @@ export default function TechSection() {
 
 const Wrapper = styled.div`
   overflow: hidden;
+  padding-top: 100px;
 `;
 
 const ContentWrapper = styled.div`

@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import { H1 } from "../styles/TextStyles";
-import Ipad from "../assets/video/iPad.mp4";
 
 export default function AppleContentSection() {
   return (
@@ -24,7 +23,7 @@ export default function AppleContentSection() {
             zIndex: "-1",
           }}
         >
-          <source src={Ipad} type="video/mp4" />
+          <source src="/videos/iPad.mp4" type="video/mp4" />
         </video>
         <TextWrapper>
           <Title>Think Different.</Title>

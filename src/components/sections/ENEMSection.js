@@ -23,7 +23,10 @@ export default function ENEMSection() {
           </Description>
           <LearnMoreButton />
         </TextWrapper>
-        <ENEMCards />
+        <CardsWrapper>
+          <ENEMCards />
+        </CardsWrapper>
+
         {/* <Video>
           <ReactPlayer url="https://youtu.be/5NXp2ItHPSM" />
         </Video> */}
@@ -51,6 +54,10 @@ const ContentWrapper = styled.div`
   align-items: center;
   align-content: center;
   gap: 30px;
+`;
+
+const CardsWrapper = styled.div`
+  display: grid;
 `;
 
 const TextWrapper = styled.div`

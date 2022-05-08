@@ -17,7 +17,11 @@ function IndexPage() {
       <CreatorSection />
       <TestimonialSection />
       <ENEMSection />
-      <Skills />
+      <Skills
+        src="/images/illustrations/skills-pack.png"
+        width="600px"
+        height="246px"
+      />
       <TechSection />
     </Layout>
   );
@@ -25,21 +29,28 @@ function IndexPage() {
 
 export default IndexPage;
 
-const Skills = styled.div`
-  height: 590px;
-  background-size: cover;
-
-  /* width: 100%;
-  height: 590px; */
-
-  background-image: url("/images/illustrations/skills-pack.png");
-  background-size: cover;
-
-  margin-bottom: 150px;
-
-  @media only screen and (max-width: 600px) {
-    background-image: url("/images/illustrations/skills-pack-mobile.png");
-    background-size: cover;
-    height: 680px;
+const Skills = styled.img`
+  width: 100%;
+  height: auto;
+  @media (max-width: 550px) {
+    src: "/images/illustrations/skills-pack-mobile.png";
   }
 `;
+// const Skills = styled.div`
+//   height: 590px;
+//   background-size: cover;
+
+//   /* width: 100%;
+//   height: 590px; */
+
+//   background-image: url("/images/illustrations/skills-pack.png");
+//   background-size: cover;
+
+//   margin-bottom: 150px;
+
+//   /* @media only screen and (max-width: 600px) {
+//     background-image: url("/images/illustrations/skills-pack-mobile.png");
+//     background-size: cover;
+//     height: 680px;
+//   } */
+// `;

@@ -114,15 +114,28 @@ export default function ENEMCards(props) {
 
 const Wrapper = styled.div`
   padding-top: 0px;
-  padding-right: 30px;
+
   display: grid;
-  grid-template-columns: 240px 240px 240px 240px 240px;
+  grid-template-columns: auto auto auto auto auto;
+  align-items: center;
+  align-content: center;
+  @media (max-width: 1200px) {
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+  }
+  @media (max-width: 900px) {
+    grid-template-columns: auto auto;
+    justify-items: center;
+  }
+  @media (max-width: 550px) {
+    grid-template-columns: auto;
+  }
 `;
 const ColorfulWrapper = styled.div`
   /* Card */
 
-  width: 210px;
-  height: 330px;
+  width: 200px;
+  height: 320px;
   margin-top: 50px;
   align-self: center;
   align-items: center;

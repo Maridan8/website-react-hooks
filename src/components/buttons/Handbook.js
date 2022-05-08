@@ -41,10 +41,6 @@ const Wrapper = styled.div`
   width: 300px;
   height: 431.3px;
   position: relative;
-
-  @media (max-width: 900px) {
-    transform: scale(0.9);
-  }
 `;
 
 const Handbook = styled.img`

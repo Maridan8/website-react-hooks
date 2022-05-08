@@ -13,7 +13,7 @@ export default function CreatorSection() {
         <TextWrapper>
           <SmallTitle>AUDIOVISUAL</SmallTitle>
           <Title>
-            Luz, câmera <br />
+            Luz, câmera, <br />
             ação!
           </Title>
           <Description>
@@ -22,20 +22,20 @@ export default function CreatorSection() {
           </Description>
           <LearnMoreButton />
         </TextWrapper>
-        <HandBookWrapper>
-          <HandBook
-            src="/images/icons/handbookRed.svg"
-            title="Como ser estudioso"
-            subtitle="Conheça a maneira que eu utilizo para estudar melhor"
-            pdf="Guia do estudo perfeito"
-          />
-          <HandBook
-            src="/images/icons/handbookBlue.svg"
-            title="Técnicas de programação"
-            subtitle="Dicas para iniciantes em programação"
-            pdf="Aprendendo a pensar"
-          />
-        </HandBookWrapper>
+        {/* <HandBookWrapper> */}
+        <HandBook
+          src="/images/icons/handbookRed.svg"
+          title="Como ser estudioso"
+          subtitle="Conheça a maneira que eu utilizo para estudar melhor"
+          pdf="Guia do estudo perfeito"
+        />
+        <HandBook
+          src="/images/icons/handbookBlue.svg"
+          title="Técnicas de programação"
+          subtitle="Dicas para iniciantes em programação"
+          pdf="Aprendendo a pensar"
+        />
+        {/* </HandBookWrapper> */}
       </ContentWrapper>
     </Wrapper>
   );
@@ -44,7 +44,7 @@ export default function CreatorSection() {
 const Wrapper = styled.div`
   align-items: center;
   overflow: hidden;
-  padding-top: 50px;
+  padding-top: 0px;
   // Wrapper is the background
 `;
 
@@ -57,14 +57,11 @@ const ContentWrapper = styled.div`
   padding-bottom: 100px;
   padding-left: 30px;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
   align-items: center;
   align-content: center;
   gap: 60px;
 
-  @media (max-width: 1100px) {
-    transform: scale(0.92);
-  }
   @media (max-width: 900px) {
     grid-template-columns: 1fr;
     justify-items: center;

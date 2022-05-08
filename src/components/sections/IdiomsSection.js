@@ -18,11 +18,11 @@ function IdiomsSection() {
           </Description>
           <LearnMoreButton />
         </TextWrapper>
-        <IdiomsWrapper>
-          <Idioms subtitle="English" src="/images/icons/english.svg" />
-          <Idioms subtitle="Español" src="/images/icons/español.svg" />
-          <Idioms subtitle="Français" src="/images/icons/français.svg" />
-        </IdiomsWrapper>
+        {/* <IdiomsWrapper> */}
+        <Idioms subtitle="English" src="/images/icons/english.svg" />
+        <Idioms subtitle="Español" src="/images/icons/español.svg" />
+        <Idioms subtitle="Français" src="/images/icons/français.svg" />
+        {/* </IdiomsWrapper> */}
       </ContentWrapper>
     </Wrapper>
   );
@@ -43,14 +43,15 @@ const ContentWrapper = styled.div`
 
   max-width: 1234px;
   margin: 0 auto; // center in the screen
-  padding-top: 50px;
+  padding-top: 80px;
   padding-right: 30px;
   padding-bottom: 0px;
-  padding-left: 30px; //200px top and bottom; 30px right and left
+  padding-left: 30px;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto auto;
   align-items: center;
   align-content: center;
+  gap: 60px;
 
   /* @media (max-width: 800px) {
     // Adaptive Layout
@@ -63,8 +64,6 @@ const ContentWrapper = styled.div`
   @media (max-width: 900px) {
     grid-template-columns: 1fr;
     justify-items: center;
-  }
-  @media (max-width: 550px) {
     gap: 30px;
   }
 `;
