@@ -106,6 +106,9 @@ const LisTestimonial = styled(Testimonial)`
   @media (max-width: 1100px) {
     order: 2;
   }
+  @media (max-width: 550px) {
+    transform: scale(0.9);
+  }
 `;
 
 const FranTestimonial = styled(Testimonial)`
@@ -120,6 +123,9 @@ const FranTestimonial = styled(Testimonial)`
   }
   @media (max-width: 1100px) {
     order: 3;
+  }
+  @media (max-width: 550px) {
+    transform: scale(0.9);
   }
 `;
 

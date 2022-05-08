@@ -1,8 +1,8 @@
 var plugins = [{
-      plugin: require('/Users/joaocarlosmagalhaes/GitHub/website/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/joaocarlosmagalhaes/GitHub/website-main/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/joaocarlosmagalhaes/GitHub/website/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      plugin: require('/Users/joaocarlosmagalhaes/GitHub/website-main/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[],"displayName":true,"fileName":true,"minify":true,"namespace":"","transpileTemplateLiterals":true,"topLevelImportPaths":[],"pure":false,"disableVendorPrefixes":false},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

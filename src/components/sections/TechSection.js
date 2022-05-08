@@ -35,8 +35,13 @@ const Wrapper = styled.div`
 `;
 
 const ContentWrapper = styled.div`
+  max-width: 1234px;
+  margin: 0 auto;
   padding-top: 0px;
+  padding-right: 30px;
   padding-bottom: 100px;
+  padding-left: 30px;
+  display: grid;
 `;
 const TextContainer = styled.div`
   display: flex;
@@ -45,6 +50,7 @@ const TextContainer = styled.div`
   padding-bottom: 100px;
 `;
 const TextWrapper = styled.div`
+  max-width: 360px;
   margin: 0 auto;
   align-self: center;
   text-align: center;
