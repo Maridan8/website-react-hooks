@@ -69,8 +69,6 @@ const ContentWrapper = styled.div`
   grid-template-columns: auto auto auto;
   align-items: center;
   align-content: center;
-  gap: 50px;
-
   @media (max-width: 1100px) {
     grid-template-columns: 1fr;
     justify-items: center;
@@ -78,21 +76,6 @@ const ContentWrapper = styled.div`
   }
 `;
 
-const TestimonialWrapper = styled.div`
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 50px;
-
-  @media (max-width: 1100px) {
-    grid-template-columns: 1fr;
-    justify-items: center;
-    gap: 50px;
-    order: 2;
-  }
-  @media (max-width: 400px) {
-    transform: scale(0.75);
-  }
-`;
 const LisTestimonial = styled(Testimonial)`
   *,
   & {
@@ -106,8 +89,8 @@ const LisTestimonial = styled(Testimonial)`
   @media (max-width: 1100px) {
     order: 2;
   }
-  @media (max-width: 550px) {
-    transform: scale(0.9);
+  @media (max-width: 450px) {
+    transform: scale(0.8);
   }
 `;
 
@@ -124,8 +107,8 @@ const FranTestimonial = styled(Testimonial)`
   @media (max-width: 1100px) {
     order: 3;
   }
-  @media (max-width: 550px) {
-    transform: scale(0.9);
+  @media (max-width: 450px) {
+    transform: scale(0.8);
   }
 `;
 
@@ -175,3 +158,19 @@ const Avatar = styled.img`
   width: 45px;
   height: 45px;
 `;
+
+// const TestimonialWrapper = styled.div`
+//   display: grid;
+//   grid-template-columns: auto auto;
+//   gap: 50px;
+
+//   @media (max-width: 1100px) {
+//     grid-template-columns: 1fr;
+//     justify-items: center;
+//     gap: 50px;
+//     order: 2;
+//   }
+//   @media (max-width: 400px) {
+//     transform: scale(0.75);
+//   }
+// `;
