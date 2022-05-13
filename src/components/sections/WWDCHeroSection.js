@@ -43,5 +43,6 @@ const TextWrapper = styled.div`
 
 const Title = styled(H1)`
   color: white;
+  font-size: 55px;
   text-shadow: -3px 0px 5px rgba(0, 0, 0, 0.25), 3px 3px 5px rgba(0, 0, 0, 0.25);
 `;

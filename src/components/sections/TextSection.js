@@ -73,7 +73,19 @@ export default function TextSection() {
             height: "auto",
           }}
         >
-          <source src="/videos/iPad.mp4" type="video/mp4" />
+          <source
+            src="/videos/iPad-mobile.mp4"
+            type="video/mp4"
+            media="all and (max-width:480px)"
+          />
+
+          <source
+            src="/videos/iPad.mp4"
+            type="video/mp4"
+            media="all and (max-width:480px)"
+          />
+          <source src="/videos/iPad-mobile.mp4" type="video/mp4"></source>
+          <source src="/videos/iPad.mp4" type="video/mp4"></source>
         </video>
       </VideoWrapper>
     </Wrapper>
