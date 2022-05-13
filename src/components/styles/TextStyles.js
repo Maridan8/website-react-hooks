@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const H1 = styled.h1`
   font-weight: bold;
   font-size: 60px;
+  line-height: 130%;
 `;
 
 export const H2 = styled.h2`
@@ -62,12 +63,10 @@ export const SmallText2 = styled.p`
 export const Testimonial = styled.div`
   width: 340px;
   height: 346px;
-
   background: rgba(15, 14, 71, 0.5);
   /* box-shadow: 0px 12px 35px rgba(0, 0, 0, 0.25); */
   backdrop-filter: blur(40px);
   /* Note: backdrop-filter has minimal browser support */
-
   border-radius: 20px;
   align-items: center;
   padding-left: 30px;
