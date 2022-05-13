@@ -36,9 +36,10 @@ export default function TextSection() {
           <Slogan>Think Different</Slogan>
         </SloganWrapper>
         <video
+          mutted
+          loop
           autoPlay
           playsInline
-          loop
           poster="/images/illustrations/iPadAir.jpeg"
           style={{
             right: "0",
