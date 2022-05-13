@@ -29,31 +29,6 @@ export default function TextSection() {
             are committed to doing everything we can to nurture this progress
             and reach true gender parity.”
           </Text>
-
-          <ImageContainer src="/images/illustrations/mac-ipad-iphone.png" />
-
-          <Title>Call to code.</Title>
-          <Text>
-            When Apple’s 2021 Worldwide Developers Conference convenes for its
-            third year in an all-virtual format, a very special group of young
-            people — 350 Swift Student Challenge winners from 35 different
-            countries and regions — will be among the millions of global
-            attendees.
-          </Text>
-          <Text>
-            The winners were selected as part of Apple’s annual WWDC student
-            challenge, each demonstrating their coding and problem-solving
-            skills by submitting an original Swift playground to earn a spot.
-          </Text>
-          <Text>
-            “Every year, we are inspired by the talent and ingenuity that we see
-            from our Swift Student Challenge applicants,” said Susan Prescott,
-            Apple’s vice president of Worldwide Developer Relations and
-            Enterprise and Education Marketing. “This year, we are incredibly
-            proud that more young women applied and won than ever before, and we
-            are committed to doing everything we can to nurture this progress
-            and reach true gender parity.”
-          </Text>
         </TextWrapper>
       </ContentWrapper>
       <VideoWrapper>
@@ -81,6 +56,33 @@ export default function TextSection() {
           <source src="/videos/iPad.mp4" type="video/mp4" />
         </video>
       </VideoWrapper>
+      <ContentWrapper>
+        <TextWrapper>
+          <Title>Call to code.</Title>
+          <Text>
+            When Apple’s 2021 Worldwide Developers Conference convenes for its
+            third year in an all-virtual format, a very special group of young
+            people — 350 Swift Student Challenge winners from 35 different
+            countries and regions — will be among the millions of global
+            attendees.
+          </Text>
+          <Text>
+            The winners were selected as part of Apple’s annual WWDC student
+            challenge, each demonstrating their coding and problem-solving
+            skills by submitting an original Swift playground to earn a spot.
+          </Text>
+          <Text>
+            “Every year, we are inspired by the talent and ingenuity that we see
+            from our Swift Student Challenge applicants,” said Susan Prescott,
+            Apple’s vice president of Worldwide Developer Relations and
+            Enterprise and Education Marketing. “This year, we are incredibly
+            proud that more young women applied and won than ever before, and we
+            are committed to doing everything we can to nurture this progress
+            and reach true gender parity.”
+          </Text>
+          <ImageContainer src="/images/illustrations/mac-ipad-iphone.png" />
+        </TextWrapper>
+      </ContentWrapper>
     </Wrapper>
   );
 }
