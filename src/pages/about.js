@@ -3,8 +3,8 @@ import Layout from "../components/layout/layout";
 import SEO from "../components/layout/seo";
 import styled from "styled-components";
 import WWDCHeroSection from "../components/sections/WWDCHeroSection";
-import AppleContentSection from "../components/sections/AppleContentSection";
-import TechSection from "../components/sections/TechSection";
+// import AppleContentSection from "../components/sections/AppleContentSection";
+// import TechSection from "../components/sections/TechSection";
 import TextSection from "../components/sections/TextSection";
 
 function AboutPage() {

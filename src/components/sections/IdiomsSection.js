@@ -76,19 +76,19 @@ const TextWrapper = styled.div`
   padding-bottom: 50px;
 `;
 
-const IdiomsWrapper = styled.div`
-  display: grid;
-  max-width: 900px;
-  grid-template-columns: auto auto auto;
-  gap: 50px;
+// const IdiomsWrapper = styled.div`
+//   display: grid;
+//   max-width: 900px;
+//   grid-template-columns: auto auto auto;
+//   gap: 50px;
 
-  @media (max-width: 550px) {
-    grid-template-columns: 1fr;
-    justify-items: center;
-    padding-top: 40px;
-    gap: 5px;
-  }
-`;
+//   @media (max-width: 550px) {
+//     grid-template-columns: 1fr;
+//     justify-items: center;
+//     padding-top: 40px;
+//     gap: 5px;
+//   }
+// `;
 
 const Title = styled(H2)`
   // This is a color variable calling ColorStyles

@@ -77,17 +77,17 @@ const TextWrapper = styled.div`
   padding-bottom: 25px;
 `;
 
-const HandBookWrapper = styled.div`
-  display: grid;
-  max-width: 900px;
-  grid-template-columns: auto auto;
-  gap: 50px;
+// const HandBookWrapper = styled.div`
+//   display: grid;
+//   max-width: 900px;
+//   grid-template-columns: auto auto;
+//   gap: 50px;
 
-  @media (max-width: 700px) {
-    grid-template-columns: 1fr;
-    gap: 0px;
-  }
-`;
+//   @media (max-width: 700px) {
+//     grid-template-columns: 1fr;
+//     gap: 0px;
+//   }
+// `;
 
 const Title = styled(H2)`
   // This is a color variable calling ColorStyles

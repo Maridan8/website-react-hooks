@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { H1, H2, MediumText, BodyMain, BodyIntro } from "../styles/TextStyles";
+import { H1, H2, BodyMain } from "../styles/TextStyles";
 
 export default function TextSection() {
   return (
@@ -76,16 +76,9 @@ export default function TextSection() {
           <source
             src="/videos/iPad-mobile.mp4"
             type="video/mp4"
-            media="all and (max-width:480px)"
+            media="(max-width: 700px)"
           />
-
-          <source
-            src="/videos/iPad.mp4"
-            type="video/mp4"
-            media="all and (max-width:480px)"
-          />
-          <source src="/videos/iPad-mobile.mp4" type="video/mp4"></source>
-          <source src="/videos/iPad.mp4" type="video/mp4"></source>
+          <source src="/videos/iPad.mp4" type="video/mp4" />
         </video>
       </VideoWrapper>
     </Wrapper>
