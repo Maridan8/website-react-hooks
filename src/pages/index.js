@@ -8,6 +8,7 @@ import styled from "styled-components";
 import HeroSection from "../components/sections/HeroSection";
 import IdiomsSection from "../components/sections/IdiomsSection";
 import TestimonialSection from "../components/sections/TestimonialSection";
+import FooterSection from "../components/sections/FooterSection";
 function IndexPage() {
   return (
     <Layout>
@@ -17,40 +18,23 @@ function IndexPage() {
       <CreatorSection />
       <TestimonialSection />
       <ENEMSection />
-      <Skills
-        src="/images/illustrations/skills-pack.png"
-        width="600px"
-        height="246px"
-      />
-      <TechSection />
+      <picture>
+        <source
+          srcset="/images/illustrations/skills-pack-mobile.png"
+          media="(max-width: 700px)"
+        />
+        <source srcset="/images/illustrations/skills-pack.png" />
+        <img
+          src="/images/illustrations/skills-pack.png"
+          style={{
+            width: "100%",
+            height: "auto",
+          }}
+        />
+      </picture>
+      {/* <FooterSection /> */}
     </Layout>
   );
 }
 
 export default IndexPage;
-
-const Skills = styled.img`
-  width: 100%;
-  height: auto;
-  @media (max-width: 550px) {
-    src: "/images/illustrations/skills-pack-mobile.png";
-  }
-`;
-// const Skills = styled.div`
-//   height: 590px;
-//   background-size: cover;
-
-//   /* width: 100%;
-//   height: 590px; */
-
-//   background-image: url("/images/illustrations/skills-pack.png");
-//   background-size: cover;
-
-//   margin-bottom: 150px;
-
-//   /* @media only screen and (max-width: 600px) {
-//     background-image: url("/images/illustrations/skills-pack-mobile.png");
-//     background-size: cover;
-//     height: 680px;
-//   } */
-// `;

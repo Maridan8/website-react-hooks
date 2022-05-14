@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { H1, H2, BodyMain } from "../styles/TextStyles";
+import { H1, H2, BodyMain, MediumText } from "../styles/TextStyles";
 
 export default function TextSection() {
   return (
@@ -33,7 +33,7 @@ export default function TextSection() {
       </ContentWrapper>
       <VideoWrapper>
         <SloganWrapper>
-          <Slogan>Think Different</Slogan>
+          <Slogan>Think Different.</Slogan>
         </SloganWrapper>
         <video
           mutted
@@ -57,8 +57,12 @@ export default function TextSection() {
         </video>
       </VideoWrapper>
       <ContentWrapper>
-        <TextWrapper>
-          <Title>Call to code.</Title>
+        <TextWrapper
+          style={{
+            paddingTop: "50px",
+          }}
+        >
+          <Title>CALL TO CODE.</Title>
           <Text>
             When Apple’s 2021 Worldwide Developers Conference convenes for its
             third year in an all-virtual format, a very special group of young
@@ -80,9 +84,28 @@ export default function TextSection() {
             are committed to doing everything we can to nurture this progress
             and reach true gender parity.”
           </Text>
-          <ImageContainer src="/images/illustrations/mac-ipad-iphone.png" />
         </TextWrapper>
       </ContentWrapper>
+      <picture>
+        <source
+          srcset="/images/illustrations/skills-pack-mobile.png"
+          media="(max-width: 700px)"
+        />
+        <source srcset="/images/illustrations/skills-pack.png" />
+        <img
+          src="/images/illustrations/skills-pack.png"
+          style={{
+            paddingTop: "10px",
+            width: "100%",
+            height: "auto",
+          }}
+        />
+      </picture>
+      {/* <ContentWrapper>
+        <TextWrapper>
+          <ImageContainer src="/images/illustrations/mac-ipad-iphone.png" />
+        </TextWrapper>
+      </ContentWrapper> */}
     </Wrapper>
   );
 }
@@ -94,6 +117,7 @@ const Wrapper = styled.div`
 const ContentWrapper = styled.div`
   max-width: 1234px;
   margin: 0 auto;
+  /* padding-top: 50px; */
   padding-bottom: 30px;
   padding-right: 30px;
   height: 100%;
@@ -120,6 +144,7 @@ const Slogan = styled(H1)`
 `;
 
 const Text = styled(BodyMain)`
+  font-size: 19px;
   color: white;
   text-shadow: -3px 0px 5px rgba(0, 0, 0, 0.25), 3px 3px 5px rgba(0, 0, 0, 0.25);
 `;
