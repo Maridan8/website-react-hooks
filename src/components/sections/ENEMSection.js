@@ -49,7 +49,7 @@ const ContentWrapper = styled.div`
   margin: 0 auto; // center in the screen
   padding-top: 120px;
   padding-right: 30px;
-  padding-bottom: 70px;
+  padding-bottom: 10px;
   padding-left: 30px;
   align-items: center;
   align-content: center;
@@ -58,6 +58,9 @@ const ContentWrapper = styled.div`
 
 const CardsWrapper = styled.div`
   display: grid;
+  /* @media (max-width: 650px) {
+    transform: scale(0.8);
+  } */
 `;
 
 const TextWrapper = styled.div`

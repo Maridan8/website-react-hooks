@@ -74,4 +74,6 @@ export const Testimonial = styled.div`
   padding-top: 30px;
   padding-bottom: 30px;
   display: grid;
+  align-self: center;
+  align-items: center;
 `;

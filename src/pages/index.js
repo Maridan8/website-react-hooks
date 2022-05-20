@@ -9,6 +9,7 @@ import HeroSection from "../components/sections/HeroSection";
 import IdiomsSection from "../components/sections/IdiomsSection";
 import TestimonialSection from "../components/sections/TestimonialSection";
 import FooterSection from "../components/sections/FooterSection";
+import SkillsSection from "../components/sections/SkillsSection";
 function IndexPage() {
   return (
     <Layout>
@@ -18,20 +19,7 @@ function IndexPage() {
       <CreatorSection />
       <TestimonialSection />
       <ENEMSection />
-      <picture>
-        <source
-          srcset="/images/illustrations/skills-pack-mobile.png"
-          media="(max-width: 700px)"
-        />
-        <source srcset="/images/illustrations/skills-pack.png" />
-        <img
-          src="/images/illustrations/skills-pack.png"
-          style={{
-            width: "100%",
-            height: "auto",
-          }}
-        />
-      </picture>
+      <SkillsSection />
       {/* <FooterSection /> */}
     </Layout>
   );

@@ -49,11 +49,15 @@ export default function TextSection() {
           }}
         >
           <source
+            src="/videos/iPad.mp4"
+            type="video/mp4"
+            media="(min-width: 700px)"
+          />
+          <source
             src="/videos/iPad-mobile.mp4"
             type="video/mp4"
             media="(max-width: 700px)"
           />
-          <source src="/videos/iPad.mp4" type="video/mp4" />
         </video>
       </VideoWrapper>
       <ContentWrapper>
@@ -85,22 +89,24 @@ export default function TextSection() {
             and reach true gender parity.”
           </Text>
         </TextWrapper>
+        <picture>
+          <source
+            srcset="/images/illustrations/skills-pack-mobile.png"
+            media="(max-width: 700px)"
+          />
+          <source srcset="/images/illustrations/skills-pack.png" />
+          <img
+            src="/images/illustrations/skills-pack.png"
+            style={{
+              paddingTop: "30px",
+
+              width: "100%",
+              height: "auto",
+            }}
+          />
+        </picture>
       </ContentWrapper>
-      <picture>
-        <source
-          srcset="/images/illustrations/skills-pack-mobile.png"
-          media="(max-width: 700px)"
-        />
-        <source srcset="/images/illustrations/skills-pack.png" />
-        <img
-          src="/images/illustrations/skills-pack.png"
-          style={{
-            paddingTop: "10px",
-            width: "100%",
-            height: "auto",
-          }}
-        />
-      </picture>
+
       {/* <ContentWrapper>
         <TextWrapper>
           <ImageContainer src="/images/illustrations/mac-ipad-iphone.png" />
