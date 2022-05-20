@@ -106,12 +106,6 @@ export default function TextSection() {
           />
         </picture>
       </ContentWrapper>
-
-      {/* <ContentWrapper>
-        <TextWrapper>
-          <ImageContainer src="/images/illustrations/mac-ipad-iphone.png" />
-        </TextWrapper>
-      </ContentWrapper> */}
     </Wrapper>
   );
 }

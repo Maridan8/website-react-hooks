@@ -9,9 +9,9 @@ export default function SkillsSection() {
           srcset="/images/illustrations/skills-pack-mobile.png"
           media="(max-width: 700px)"
         />
-        <source srcset="/images/illustrations/skills-pack.png" />
+        <source srcset="/images/illustrations/skills-pack-hero.png" />
         <img
-          src="/images/illustrations/skills-pack.png"
+          src="/images/illustrations/skills-pack-hero.png"
           style={{
             paddingTop: "30px",
 
@@ -25,13 +25,13 @@ export default function SkillsSection() {
 }
 
 const Wrapper = styled.div`
-  max-width: 1234px;
+  /* max-width: 1234px; */
   margin: 0 auto;
-  /* padding-top: 50px; */
-  padding-bottom: 30px;
-  padding-right: 30px;
+  padding-top: 50px;
+  /* padding-bottom: 30px; */
+
   height: 100%;
-  padding-left: 30px;
-  display: grid;
-  overflow: hidden;
+  /* padding-left: 30px; */
+  /* display: grid;
+  overflow: hidden; */
 `;
