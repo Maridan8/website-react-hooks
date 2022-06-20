@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import LearnMoreButton from "../buttons/LearnMoreButton";
+import LearnMoreButton from "../../buttons/LearnMoreButton";
 import {
   Caption,
   Caption2,
@@ -9,7 +9,7 @@ import {
   BodyMain,
   SmallText2,
   Testimonial,
-} from "../styles/TextStyles";
+} from "../../styles/TextStyles";
 
 export default function TestimonialSection() {
   return (

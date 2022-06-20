@@ -1,31 +1,31 @@
 export const menuData = [
   {
-    title: "Início",
+    title: "Home",
     icon: "/images/icons/courses.svg",
     link: "/",
   },
   {
-    title: "Sobre",
+    title: "About",
     icon: "/images/icons/tutorials.svg",
     link: "/about",
   },
 
   {
-    title: "Projetos",
+    title: "Projects",
     icon: "/images/icons/livestreams.svg",
     link: "/projects",
   },
-  { title: "Contato", icon: "/images/icons/pricing.svg", link: "/contact" },
+  { title: "Contact", icon: "/images/icons/pricing.svg", link: "/contact" },
   { title: "", icon: "/images/icons/account.svg", link: "/" },
 ];
 
 export const tooltipData = [
-  { title: "Início", icon: "/images/icons/courses.svg", link: "/" },
+  { title: "Home", icon: "/images/icons/courses.svg", link: "/" },
   {
-    title: "Sobre",
+    title: "About",
     icon: "/images/icons/tutorials.svg",
     link: "/about",
   },
-  { title: "Projetos", icon: "/images/icons/livestreams.svg", link: "/" },
-  { title: "Contato", icon: "/images/icons/pricing.svg", link: "/" },
+  { title: "Projects", icon: "/images/icons/livestreams.svg", link: "/" },
+  { title: "Contact", icon: "/images/icons/pricing.svg", link: "/" },
 ];

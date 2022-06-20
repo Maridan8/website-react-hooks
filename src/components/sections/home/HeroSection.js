@@ -1,10 +1,10 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
-import MockupAnimation from "../animations/MockupAnimation";
-import WaveBackground from "../backgrounds/WaveBackground";
-import PurchaseButton from "../buttons/PurchaseButton";
-import { themes } from "../styles/ColorStyles";
-import { H1, MediumText } from "../styles/TextStyles";
+import MockupAnimation from "../../animations/MockupAnimation";
+import WaveBackground from "../../backgrounds/WaveBackground";
+import PurchaseButton from "../../buttons/PurchaseButton";
+import { themes } from "../../styles/ColorStyles";
+import { H1, MediumText } from "../../styles/TextStyles";
 
 function HeroSection() {
   return (
@@ -13,15 +13,15 @@ function HeroSection() {
       <ContentWrapper>
         <TextWrapper>
           <Title>
-            Criador, <br />
-            estudante <span> &amp; </span>
-            desenvolvedor
+            Creator, <br />
+            student <span> &amp; </span>
+            developer
           </Title>
           <Description>
-            Eu sou João Carlos Magalhães, um <br />
-            estudante de 16 anos morando no Brasil.
+            I'm John Carlos, a 17-year-old <br />
+            student based in Brazil.
           </Description>
-          <PurchaseButton title="UPDATES" subtitle="Últimas notícias" />
+          <PurchaseButton title="UPDATES" subtitle="Last News" />
         </TextWrapper>
         <MockupWrapper>
           <MockupAnimation />

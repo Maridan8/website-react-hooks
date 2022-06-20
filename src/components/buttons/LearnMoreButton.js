@@ -8,7 +8,7 @@ export default function LearnMoreButton() {
     <Link to="/page-2">
       <Wrapper>
         <Icon src="images/icons/chat.svg" />
-        <Subtitle>Saiba mais</Subtitle>
+        <Subtitle>Learn more</Subtitle>
       </Wrapper>
     </Link>
   );

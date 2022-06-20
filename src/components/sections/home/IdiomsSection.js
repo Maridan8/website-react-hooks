@@ -1,20 +1,20 @@
 import React from "react";
-import { Caption2, H2, MediumText } from "../styles/TextStyles";
+import { Caption2, H2, MediumText } from "../../styles/TextStyles";
 
 import styled from "styled-components";
-import Idioms from "../buttons/IdiomsButton";
-import LearnMoreButton from "../buttons/LearnMoreButton";
+import Idioms from "../../buttons/IdiomsButton";
+import LearnMoreButton from "../../buttons/LearnMoreButton";
 
 function IdiomsSection() {
   return (
     <Wrapper>
       <ContentWrapper>
         <TextWrapper>
-          <SmallTitle>Idiomas</SmallTitle>
+          <SmallTitle>Idioms</SmallTitle>
           <Title>Hello | Hola | Salut</Title>
           <Description>
-            Conheça a minha opinião sobre línguas estrangeiras e embarque nesse
-            meu hobby!
+            Get to know my opinion about foreign languages and learn more about
+            my hobby!
           </Description>
           <LearnMoreButton />
         </TextWrapper>

@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
-import { ENEMWaves } from "../backgrounds/ENEMWaves";
-import ENEMCards from "../buttons/ENEMCards";
-import LearnMoreButton from "../buttons/LearnMoreButton";
+import { ENEMWaves } from "../../backgrounds/ENEMWaves";
+import ENEMCards from "../../buttons/ENEMCards";
+import LearnMoreButton from "../../buttons/LearnMoreButton";
 // import ReactPlayer from "react-player";
-import { Caption2, H2, MediumText } from "../styles/TextStyles";
+import { Caption2, H2, MediumText } from "../../styles/TextStyles";
 
 export default function ENEMSection() {
   return (

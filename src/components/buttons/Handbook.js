@@ -11,7 +11,7 @@ export default function HandBook(props) {
       <TopFilter />
       <TextWrapper>
         <BottomWrapper>
-          <Head>VÍDEO</Head>
+          <Head>VIDEO</Head>
           <YouTubeWrapper>
             <YouTube src="images/icons/YouTube.svg" />
           </YouTubeWrapper>
@@ -24,7 +24,7 @@ export default function HandBook(props) {
           <IconWrapper>
             <Video src="images/icons/video.svg" />
           </IconWrapper>
-          <IconText>Acessar vídeo</IconText>
+          <IconText>Access video</IconText>
         </BottomWrapper>
         <BottomWrapper>
           <IconWrapper>

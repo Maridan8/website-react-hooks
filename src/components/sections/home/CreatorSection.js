@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import { CreatorWaves } from "../backgrounds/CreatorWaves";
-import HandBook from "../buttons/Handbook";
-import LearnMoreButton from "../buttons/LearnMoreButton";
-import { Caption2, H2, MediumText } from "../styles/TextStyles";
+import { CreatorWaves } from "../../backgrounds/CreatorWaves";
+import HandBook from "../../buttons/Handbook";
+import LearnMoreButton from "../../buttons/LearnMoreButton";
+import { Caption2, H2, MediumText } from "../../styles/TextStyles";
 
 export default function CreatorSection() {
   return (
@@ -13,27 +13,26 @@ export default function CreatorSection() {
         <TextWrapper>
           <SmallTitle>AUDIOVISUAL</SmallTitle>
           <Title>
-            Luz, câmera, <br />
-            ação!
+            Lights, camera, <br />
+            action!
           </Title>
           <Description>
-            Conheça o meu trabalho como criador de conteúdo e enriqueça o seu
-            conhecimento!
+            Meet my work as a content creator and enrich your knowledge!
           </Description>
           <LearnMoreButton />
         </TextWrapper>
         {/* <HandBookWrapper> */}
         <HandBook
           src="/images/icons/handbookRed.svg"
-          title="Como ser estudioso"
-          subtitle="Conheça a maneira que eu utilizo para estudar melhor"
-          pdf="Guia do estudo perfeito"
+          title="How to become productive"
+          subtitle="Discover effective techniques I use to study better"
+          pdf="Study better"
         />
         <HandBook
           src="/images/icons/handbookBlue.svg"
-          title="Técnicas de programação"
-          subtitle="Dicas para iniciantes em programação"
-          pdf="Aprendendo a pensar"
+          title="Programming techniques"
+          subtitle="Tips for beginners in programming to learn computing faster"
+          pdf="Learning to think"
         />
         {/* </HandBookWrapper> */}
       </ContentWrapper>
