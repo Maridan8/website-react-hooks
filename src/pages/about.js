@@ -14,13 +14,7 @@ function AboutPage() {
       <Wrapper>
         <WWDCHeroSection />
         <TextSection />
-
-        {/* <AppleContentSection /> */}
       </Wrapper>
-
-      {/* <WWDCHeroSection />
-
-        <TechSection /> */}
     </Layout>
   );
 }

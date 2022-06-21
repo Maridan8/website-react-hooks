@@ -2,18 +2,15 @@ import React from "react";
 import Layout from "../components/layout/layout";
 import SEO from "../components/layout/seo";
 import styled from "styled-components";
-import AppleHeroSection from "../components/sections/AppleHeroSection";
-import AppleContentSection from "../components/sections/AppleContentSection";
-import TechSection from "../components/sections/TechSection";
+import ProjectWaves from "../components/backgrounds/ProjectWaves";
+import ProjectsHeroSection from "../components/sections/projects/ProjectsHeroSection";
 
 function ProjectsPage() {
   return (
     <Layout>
       <SEO title="Home" />
       <Wrapper>
-        <AppleHeroSection />
-        <AppleContentSection />
-        <TechSection />
+        <ProjectsHeroSection />
       </Wrapper>
     </Layout>
   );
