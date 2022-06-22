@@ -13,6 +13,7 @@ export default function SkillsSection() {
           <source srcset="/images/illustrations/skills-pack.png" />
           <img
             src="/images/illustrations/skills-pack.png"
+            alt="Skills"
             style={{
               paddingTop: "30px",
 

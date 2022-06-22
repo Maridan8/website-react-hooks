@@ -15,11 +15,6 @@ const Wrapper = styled.div`
   position: relative;
 `;
 
-const Wave = styled.img`
-  position: absolute;
-  z-index: -1;
-`;
-
 const Background = styled.div`
   background: linear-gradient(135deg, #92ffc0 0%, #002661 100%);
 

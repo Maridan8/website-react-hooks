@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { H1, H2, BodyMain, MediumText } from "../styles/TextStyles";
+import { H1, H2, BodyMain } from "../styles/TextStyles";
 
 export default function TextSection() {
   return (
@@ -149,11 +149,11 @@ const Text = styled(BodyMain)`
   text-shadow: -3px 0px 5px rgba(0, 0, 0, 0.25), 3px 3px 5px rgba(0, 0, 0, 0.25);
 `;
 
-const ImageContainer = styled.img`
-  padding-top: 30px;
-  width: 100%;
-  height: auto;
-`;
+// const ImageContainer = styled.img`
+//   padding-top: 30px;
+//   width: 100%;
+//   height: auto;
+// `;
 
 const VideoWrapper = styled.div`
   margin: 0 auto;
