@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { H1, H2, BodyMain } from "../styles/TextStyles";
+import { H1, H2, BodyMain } from "../../styles/TextStyles";
 
 export default function TextSection() {
   return (

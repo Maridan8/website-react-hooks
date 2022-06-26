@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { H1 } from "../styles/TextStyles";
+import { H1 } from "../../styles/TextStyles";
 
 export default function AppleContentSection() {
   return (

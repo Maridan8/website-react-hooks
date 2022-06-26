@@ -2,10 +2,10 @@ import React from "react";
 import Layout from "../components/layout/layout";
 import SEO from "../components/layout/seo";
 import styled from "styled-components";
-import WWDCHeroSection from "../components/sections/WWDCHeroSection";
+import WWDCHeroSection from "../components/sections/about/WWDCHeroSection";
 // import AppleContentSection from "../components/sections/AppleContentSection";
 // import TechSection from "../components/sections/TechSection";
-import TextSection from "../components/sections/TextSection";
+import TextSection from "../components/sections/about/TextSection";
 
 function AboutPage() {
   return (

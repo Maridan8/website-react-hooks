@@ -23,12 +23,12 @@ export default function ProjectsHeroSection() {
             </CardBottom2>
           </CardsWrapper2>
           <CardsWrapper>
-            <Card2>
+            <Card>
               <Icon src="/images/illustrations/iPhoneCard.png" width={"220"} />
-            </Card2>
-            <CardBottom2>
+            </Card>
+            <CardBottom>
               <Subtitle>SwiftUI for iOS 15</Subtitle>
-            </CardBottom2>
+            </CardBottom>
           </CardsWrapper>
           <CardsWrapper2>
             <Card2>
@@ -45,8 +45,13 @@ export default function ProjectsHeroSection() {
 }
 
 const animation = keyframes`
-  0% { opacity: 0; transform: translateY(-10px); filter: blur(10px); }
-  100% { opacity: 1; transform: translateY(0px); filter: blur(0px); }
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0px); }
+`;
+
+const cardAnimation = keyframes`
+  0% { opacity: 0; filter: blur(20px); }
+  100% { opacity: 1; filter: blur(0px); }
 `;
 
 const Wrapper = styled.div`
@@ -85,26 +90,52 @@ const MiddleWrapper = styled.div`
     flex-direction: column;
     gap: 120px;
   }
+
+  > * {
+    opacity: 0;
+    animation: ${cardAnimation} 1.5s forwards;
+  }
 `;
 
 const CardsWrapper = styled.div`
   display: flex;
   z-index: 1;
   transform: scale(1.2);
+
+  *,
+  & {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+
+  :hover {
+    transform: translateY(-3px);
+    transform: scale(1.25);
+  }
 `;
 
 const CardsWrapper2 = styled.div`
   display: flex;
   z-index: 0;
+
+  *,
+  & {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+
+  :hover {
+    transform: translateY(-3px);
+    transform: scale(1.1);
+  }
 `;
 
 const Card = styled.div`
   box-sizing: border-box;
-  position: absolute;
-  width: 360px;
-  height: 265px;
 
-  background: rgba(151, 249, 255, 0.35);
+  position: absolute;
+  width: 280px;
+  height: 221px;
+
+  background: rgba(181, 249, 253, 0.42);
   box-shadow: 0px 45.9087px 45.9087px rgba(69, 42, 124, 0.15);
   backdrop-filter: blur(20px);
   /* Note: backdrop-filter has minimal browser support */
@@ -112,9 +143,7 @@ const Card = styled.div`
   border-radius: 30px;
   align-items: center;
   align-content: center;
-
-  //above
-  z-index: 1;
+  z-index: 0;
 `;
 
 const Card2 = styled.div`
@@ -139,19 +168,17 @@ const CardBottom = styled.div`
   box-sizing: border-box;
 
   position: relative;
-  width: 360px;
-  height: 50px;
+  width: 280px;
+  height: 45px;
 
   background: rgba(0, 0, 0, 0.3);
   border-radius: 0px 0px 30px 30px;
 
-  top: 215px;
+  top: 176px;
 
   //centering
   align-items: center;
   display: grid;
-
-  z-index: 1;
 `;
 
 const CardBottom2 = styled.div`
@@ -193,7 +220,21 @@ const Icon = styled.img`
 
 const TextWrapper = styled.div`
   text-align: center;
+
+  margin: 0 auto;
   padding-top: 220px;
+  padding-right: 30px;
+  padding-left: 30px;
+  display: grid;
+
+  > * {
+    opacity: 0;
+    animation: ${animation} 1s forwards;
+
+    :nth-child(1) {
+      animation-delay: 0.5s;
+    }
+  }
 `;
 
 const Title = styled(H1)`
