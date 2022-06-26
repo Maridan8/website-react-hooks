@@ -7,6 +7,14 @@ export default function ProjectWaves() {
       <Background />
       <Elipse2 />
       <Elipse />
+      <Wave
+        src="/images/waves/projects-hero-wave-blur.svg"
+        style={{ top: "0px" }}
+      />
+      <Wave
+        src="/images/waves/projects-hero-wave.svg"
+        style={{ top: "650px" }}
+      />
     </Wrapper>
   );
 }
@@ -56,4 +64,9 @@ const Elipse2 = styled.div`
     ),
     linear-gradient(173.03deg, #0f3dc9 13.59%, #e8a358 86.1%), #d9d9d9;
   box-shadow: inset 0px 10px 10px #7ea1dc, inset 0px -10px 20px #f4e85d;
+`;
+
+const Wave = styled.img`
+  position: absolute;
+  z-index: -1;
 `;
