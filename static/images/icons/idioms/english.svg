@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="45px" viewBox="0 0 45 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>english</title>
+    <defs>
+        <circle id="path-1" cx="22.5" cy="22.5" r="22.5"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="english">
+            <g id="Clipped">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Oval"></g>
+                <g id="Group" mask="url(#mask-2)" fill-rule="nonzero">
+                    <g transform="translate(-9.339600, -0.849365)" id="Rectangle">
+                        <rect fill="#FFFFFF" x="0" y="33.962565" width="64.5283" height="3.39623"></rect>
+                        <rect fill="#FFFFFF" x="0" y="40.754965" width="64.5283" height="3.39623"></rect>
+                        <rect fill="#FFFFFF" x="0" y="27.170265" width="64.5283" height="3.39623"></rect>
+                        <rect fill="#FFFFFF" x="0" y="20.377565" width="64.5283" height="3.39623"></rect>
+                        <rect fill="#FFFFFF" x="0" y="13.584865" width="64.5283" height="3.39623"></rect>
+                        <rect fill="#FFFFFF" x="0" y="6.792605" width="64.5283" height="3.39623"></rect>
+                        <rect fill="#FFFFFF" x="0" y="2.33146835e-15" width="64.5283" height="3.39623"></rect>
+                        <rect fill="#FF0000" x="0" y="30.566265" width="64.5283" height="3.39623"></rect>
+                        <rect fill="#FF0000" x="0" y="37.358565" width="64.5283" height="3.39623"></rect>
+                        <rect fill="#FF0000" x="0" y="44.151265" width="64.5283" height="3.39623"></rect>
+                        <rect fill="#FF0000" x="0" y="23.773565" width="64.5283" height="3.39623"></rect>
+                        <rect fill="#FF0000" x="0" y="16.981365" width="64.5283" height="3.39623"></rect>
+                        <rect fill="#FF0000" x="0" y="10.188845" width="64.5283" height="3.39623"></rect>
+                        <rect fill="#FF0000" x="0" y="3.396605" width="64.5283" height="3.39623"></rect>
+                        <rect fill="#0047FF" x="0" y="2.33146835e-15" width="32.2642" height="23.7736"></rect>
+                    </g>
+                </g>
+            </g>
+            <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" points="16.1321 4.24536 16.5133 5.41873 17.7471 5.41873 16.7489 6.14391 17.1302 7.31728 16.1321 6.5921 15.1339 7.31728 15.5152 6.14391 14.5171 5.41873 15.7508 5.41873"></polygon>
+            <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" points="5.09435 16.981 5.4756 18.1543 6.70935 18.1543 5.71123 18.8795 6.09248 20.0529 5.09435 19.3277 4.09623 20.0529 4.47748 18.8795 3.47935 18.1543 4.7131 18.1543"></polygon>
+            <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" points="18.6793 15.283 19.0605 16.4563 20.2943 16.4563 19.2961 17.1815 19.6774 18.3549 18.6793 17.6297 17.6811 18.3549 18.0624 17.1815 17.0643 16.4563 18.298 16.4563"></polygon>
+            <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" points="12.7359 13.585 13.1171 14.7583 14.3509 14.7583 13.3528 15.4835 13.734 16.6569 12.7359 15.9317 11.7378 16.6569 12.119 15.4835 11.1209 14.7583 12.3546 14.7583"></polygon>
+            <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" points="8.49053 8.49072 8.87178 9.66409 10.1055 9.66409 9.10741 10.3893 9.48866 11.5626 8.49053 10.8375 7.49241 11.5626 7.87366 10.3893 6.87553 9.66409 8.10928 9.66409"></polygon>
+        </g>
+    </g>
+</svg>

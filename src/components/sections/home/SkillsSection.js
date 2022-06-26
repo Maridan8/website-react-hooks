@@ -7,16 +7,15 @@ export default function SkillsSection() {
       <ContentWrapper>
         <picture>
           <source
-            srcset="/images/illustrations/skills-pack-mobile.png"
+            srcset="/images/illustrations/skills/skills-pack-mobile.png"
             media="(max-width: 700px)"
           />
-          <source srcset="/images/illustrations/skills-pack.png" />
+          <source srcset="/images/illustrations/skills/skills-pack.png" />
           <img
             src="/images/illustrations/skills-pack.png"
             alt="Skills"
             style={{
               paddingTop: "30px",
-
               width: "100%",
               height: "auto",
             }}

@@ -6,12 +6,12 @@ export default function WaveBackground() {
     <Wrapper>
       <Background />
       <Wave
-        src="/images/waves/hero-wave1.svg"
+        src="/images/waves/hero/hero-wave1.svg"
         style={{ top: "100px", filter: "blur(60px)" }}
       />
-      <Wave src="/images/waves/hero-wave2.svg" style={{ top: "350px" }} />
-      <Wave src="/images/waves/hero-wave3.svg" style={{ top: "600px" }} />
-      <Wave src="/images/waves/Stars.svg" style={{ top: "0px" }} />
+      <Wave src="/images/waves/hero/hero-wave2.svg" style={{ top: "350px" }} />
+      <Wave src="/images/waves/hero/hero-wave3.svg" style={{ top: "600px" }} />
+      <Wave src="/images/waves/hero/Stars.svg" style={{ top: "0px" }} />
     </Wrapper>
   );
 }

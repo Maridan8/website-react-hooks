@@ -16,7 +16,7 @@ export default function WWDCHeroSection() {
 
 const Wrapper = styled.div`
   overflow: hidden;
-  background-image: url("/images/illustrations/bg-wwdc.png");
+  background-image: url("/images/illustrations/wwdc/bg-wwdc.png");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;

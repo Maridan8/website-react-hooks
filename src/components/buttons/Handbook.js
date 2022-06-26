@@ -6,14 +6,17 @@ export default function HandBook(props) {
   const { src, title, subtitle, pdf } = props;
   return (
     <Wrapper>
-      <Handbook src="/images/icons/handbook1.svg" style={{ opacity: "15%" }} />
+      <Handbook
+        src="/images/icons/handbook/handbook1.svg"
+        style={{ opacity: "15%" }}
+      />
       <Handbook src={src || "/images/icons/handbookRed.svg"} />
       <TopFilter />
       <TextWrapper>
         <BottomWrapper>
           <Head>VIDEO</Head>
           <YouTubeWrapper>
-            <YouTube src="images/icons/YouTube.svg" />
+            <YouTube src="images/icons/socialmedia/youtube.svg" />
           </YouTubeWrapper>
         </BottomWrapper>
         <Title>{title || "Como ser estudioso"}</Title>
@@ -22,13 +25,13 @@ export default function HandBook(props) {
         </Subtitle>
         <BottomWrapper>
           <IconWrapper>
-            <Video src="images/icons/video.svg" />
+            <Video src="images/icons/handbook/video.svg" />
           </IconWrapper>
           <IconText>Access video</IconText>
         </BottomWrapper>
         <BottomWrapper>
           <IconWrapper>
-            <File src="images/icons/coding.svg" />
+            <File src="images/icons/handbook/coding.svg" />
           </IconWrapper>
           <IconText>{pdf || "Guia do estudo perfeito"}</IconText>
         </BottomWrapper>

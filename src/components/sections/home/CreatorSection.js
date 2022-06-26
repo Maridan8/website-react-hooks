@@ -23,13 +23,13 @@ export default function CreatorSection() {
         </TextWrapper>
         {/* <HandBookWrapper> */}
         <HandBook
-          src="/images/icons/handbookRed.svg"
+          src="/images/icons/handbook/handbookRed.svg"
           title="How to become productive"
           subtitle="Discover effective techniques I use to study better"
           pdf="Study better"
         />
         <HandBook
-          src="/images/icons/handbookBlue.svg"
+          src="/images/icons/handbook/handbookBlue.svg"
           title="Programming techniques"
           subtitle="Tips for beginners in programming to learn computing faster"
           pdf="Learning to think"

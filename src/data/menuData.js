@@ -1,35 +1,39 @@
 export const menuData = [
   {
     title: "Home",
-    icon: "/images/icons/courses.svg",
+    icon: "/images/icons/menu/courses.svg",
     link: "/",
   },
   {
     title: "About",
-    icon: "/images/icons/tutorials.svg",
+    icon: "/images/icons/menu/tutorials.svg",
     link: "/about",
   },
 
   {
     title: "Projects",
-    icon: "/images/icons/livestreams.svg",
+    icon: "/images/icons/menu/livestreams.svg",
     link: "/projects",
   },
-  { title: "Contact", icon: "/images/icons/pricing.svg", link: "/contact" },
-  { title: "", icon: "/images/icons/account.svg", link: "/" },
+  {
+    title: "Contact",
+    icon: "/images/icons/menu/pricing.svg",
+    link: "/contact",
+  },
+  { title: "", icon: "/images/icons/menu/account.svg", link: "/" },
 ];
 
 export const tooltipData = [
-  { title: "Home", icon: "/images/icons/courses.svg", link: "/" },
+  { title: "Home", icon: "/images/icons/menu/courses.svg", link: "/" },
   {
     title: "About",
-    icon: "/images/icons/tutorials.svg",
+    icon: "/images/icons/menu/tutorials.svg",
     link: "/about",
   },
   {
     title: "Projects",
-    icon: "/images/icons/livestreams.svg",
+    icon: "/images/icons/menu/livestreams.svg",
     link: "/projects",
   },
-  { title: "Contact", icon: "/images/icons/pricing.svg", link: "/" },
+  { title: "Contact", icon: "/images/icons/menu/pricing.svg", link: "/" },
 ];

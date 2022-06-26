@@ -8,11 +8,11 @@ export default function ProjectWaves() {
       <Elipse2 />
       <Elipse />
       <Wave
-        src="/images/waves/projects-hero-wave-blur.svg"
+        src="/images/waves/projects/projects-hero-wave-blur.svg"
         style={{ top: "0px" }}
       />
       <Wave
-        src="/images/waves/projects-hero-wave.svg"
+        src="/images/waves/projects/projects-hero-wave.svg"
         style={{ top: "650px" }}
       />
     </Wrapper>

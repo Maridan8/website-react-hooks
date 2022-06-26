@@ -40,7 +40,7 @@ export default function TextSection() {
           loop
           autoPlay
           playsInline
-          poster="/images/illustrations/iPadAir.jpeg"
+          poster="/images/illustrations/wwdc/iPadAir.jpeg"
           style={{
             right: "0",
             bottom: "0",
@@ -91,12 +91,12 @@ export default function TextSection() {
         </TextWrapper>
         <picture>
           <source
-            srcset="/images/illustrations/skills-pack-mobile.png"
+            srcset="/images/illustrations/skills/skills-pack-mobile.png"
             media="(max-width: 700px)"
           />
-          <source srcset="/images/illustrations/skills-pack.png" />
+          <source srcset="/images/illustrations/skills/skills-pack.png" />
           <img
-            src="/images/illustrations/skills-pack.png"
+            src="/images/illustrations/skills/skills-pack.png"
             style={{
               paddingTop: "30px",
 

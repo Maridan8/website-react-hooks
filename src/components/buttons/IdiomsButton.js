@@ -13,7 +13,7 @@ export default function Icons(props) {
         </TextWrapper>
       </Link>
       <IconWrapper>
-        <Icon src={src || "/images/icons/english.svg"} />
+        <Icon src={src || "/images/icons/idioms/english.svg"} />
       </IconWrapper>
     </Wrapper>
   );

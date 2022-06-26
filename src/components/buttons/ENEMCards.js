@@ -17,7 +17,7 @@ export default function ENEMCards(props) {
         <Handbook src={src || "/images/icons/handbookRed.svg"} /> */}
         <TextWrapper>
           <Illustration
-            src={src || "/images/illustrations/illustration1.svg"}
+            src={src || "/images/illustrations/cards/illustration1.svg"}
           />
           <Title>{title || "Linguagens"}</Title>
           <Subtitle>{subtitle || "5 vídeos - 3 horas"}</Subtitle>
@@ -38,7 +38,7 @@ export default function ENEMCards(props) {
         <Handbook src={src || "/images/icons/handbookRed.svg"} /> */}
         <TextWrapper>
           <Illustration
-            src={src || "/images/illustrations/illustration2.svg"}
+            src={src || "/images/illustrations/cards/illustration2.svg"}
           />
           <Title>{title || "Humanas"}</Title>
           <Subtitle>{subtitle || "5 vídeos - 3 horas"}</Subtitle>
@@ -59,7 +59,7 @@ export default function ENEMCards(props) {
         <Handbook src={src || "/images/icons/handbookRed.svg"} /> */}
         <TextWrapper>
           <Illustration
-            src={src || "/images/illustrations/illustration3.svg"}
+            src={src || "/images/illustrations/cards/illustration3.svg"}
           />
           <Title>{title || "Natureza"}</Title>
           <Subtitle>{subtitle || "5 vídeos - 3 horas"}</Subtitle>
@@ -79,7 +79,7 @@ export default function ENEMCards(props) {
         <Handbook src={src || "/images/icons/handbookRed.svg"} /> */}
         <TextWrapper>
           <Illustration
-            src={src || "/images/illustrations/illustration4.svg"}
+            src={src || "/images/illustrations/cards/illustration4.svg"}
           />
           <Title>{title || "Matemática"}</Title>
           <Subtitle>{subtitle || "5 vídeos - 3 horas"}</Subtitle>
@@ -99,7 +99,7 @@ export default function ENEMCards(props) {
         <Handbook src={src || "/images/icons/handbookRed.svg"} /> */}
         <TextWrapper>
           <Illustration
-            src={src || "/images/illustrations/illustration5.svg"}
+            src={src || "/images/illustrations/cards/illustration5.svg"}
           />
           <Title>{title || "Redação"}</Title>
           <Subtitle>{subtitle || "5 vídeos - 3 horas"}</Subtitle>

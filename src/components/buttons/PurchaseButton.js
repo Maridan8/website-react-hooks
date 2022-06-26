@@ -9,8 +9,8 @@ export default function PurchaseButton(props) {
     <a href={url || "https://joaocarlosmag.netlify.app"}>
       <Wrapper>
         <IconWrapper>
-          <Icon src="/images/icons/credit.svg" className="icon" />
-          <Ring src="/images/icons/icon-ring.svg" />
+          <Icon src="/images/icons/buttons/credit.svg" className="icon" />
+          <Ring src="/images/icons/buttons/icon-ring.svg" />
         </IconWrapper>
         <TextWrapper>
           <Title>{title || "Get Pro Access"}</Title>

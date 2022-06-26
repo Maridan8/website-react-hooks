@@ -16,7 +16,10 @@ export default function ProjectsHeroSection() {
         <MiddleWrapper>
           <CardsWrapper2>
             <Card2>
-              <Icon src="/images/illustrations/macStudio.png" width={"200"} />
+              <Icon
+                src="/images/illustrations/projects/macStudio.png"
+                width={"200"}
+              />
             </Card2>
             <CardBottom2>
               <Subtitle>React Hooks</Subtitle>
@@ -24,7 +27,10 @@ export default function ProjectsHeroSection() {
           </CardsWrapper2>
           <CardsWrapper>
             <Card>
-              <Icon src="/images/illustrations/iPhoneCard.png" width={"220"} />
+              <Icon
+                src="/images/illustrations/projects/iPhoneCard.png"
+                width={"220"}
+              />
             </Card>
             <CardBottom>
               <Subtitle>SwiftUI for iOS 15</Subtitle>
@@ -32,7 +38,10 @@ export default function ProjectsHeroSection() {
           </CardsWrapper>
           <CardsWrapper2>
             <Card2>
-              <Icon src="/images/illustrations/gear.png" width={"200"} />
+              <Icon
+                src="/images/illustrations/projects/gear.png"
+                width={"200"}
+              />
             </Card2>
             <CardBottom2>
               <Subtitle>Leetcode</Subtitle>

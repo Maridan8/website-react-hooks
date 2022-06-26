@@ -26,10 +26,6 @@ export default function ENEMSection() {
         <CardsWrapper>
           <ENEMCards />
         </CardsWrapper>
-
-        {/* <Video>
-          <ReactPlayer url="https://youtu.be/5NXp2ItHPSM" />
-        </Video> */}
       </ContentWrapper>
     </Wrapper>
   );

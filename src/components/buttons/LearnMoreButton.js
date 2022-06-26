@@ -7,7 +7,7 @@ export default function LearnMoreButton() {
   return (
     <Link to="/page-2">
       <Wrapper>
-        <Icon src="images/icons/chat.svg" />
+        <Icon src="images/icons/buttons/chat.svg" />
         <Subtitle>Learn more</Subtitle>
       </Wrapper>
     </Link>
